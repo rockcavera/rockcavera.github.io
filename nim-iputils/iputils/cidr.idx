@@ -1,0 +1,12 @@
+Cidr4	iputils/cidr.html#Cidr4	cidr: Cidr4	
+Cidr6	iputils/cidr.html#Cidr6	cidr: Cidr6	
+ipv4RangeToCidr	iputils/cidr.html#ipv4RangeToCidr,Ipv4,Ipv4	cidr: ipv4RangeToCidr(startIp, endIp: Ipv4): seq[Cidr4]	
+ipv6RangeToCidr	iputils/cidr.html#ipv6RangeToCidr,Ipv6,Ipv6	cidr: ipv6RangeToCidr(startIp, endIp: Ipv6): seq[Cidr6]	
+cidrToIpv4Range	iputils/cidr.html#cidrToIpv4Range,Cidr4	cidr: cidrToIpv4Range(cidr: Cidr4): tuple[startIp, endIp: Ipv4]	
+cidrToIpv6Range	iputils/cidr.html#cidrToIpv6Range,Cidr6	cidr: cidrToIpv6Range(cidr: Cidr6): tuple[startIp, endIp: Ipv6]	
+listAllCidrContainIpv4	iputils/cidr.html#listAllCidrContainIpv4,Ipv4	cidr: listAllCidrContainIpv4(ip: Ipv4): seq[Cidr4]	
+listAllCidrContainIpv6	iputils/cidr.html#listAllCidrContainIpv6,Ipv6	cidr: listAllCidrContainIpv6(ip: Ipv6): seq[Cidr6]	
+cidrToString	iputils/cidr.html#cidrToString	cidr: cidrToString(cidr: Cidr4 | Cidr6): string	
+`$`	iputils/cidr.html#$	cidr: `$`(cidr: Cidr4 | Cidr6): string	
+cidrContainIpv4	iputils/cidr.html#cidrContainIpv4.i,Ipv4	cidr: cidrContainIpv4(ip: Ipv4): Cidr4	
+cidrContainIpv6	iputils/cidr.html#cidrContainIpv6.i,Ipv6	cidr: cidrContainIpv6(ip: Ipv6): Cidr6	

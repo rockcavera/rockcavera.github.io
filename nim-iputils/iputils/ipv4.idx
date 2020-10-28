@@ -1,0 +1,9 @@
+Ipv4	iputils/ipv4.html#Ipv4	ipv4: Ipv4	
+parseIpv4	iputils/ipv4.html#parseIpv4,string	ipv4: parseIpv4(ip: string): Ipv4	
+isIpv4AndStore	iputils/ipv4.html#isIpv4AndStore,string,Ipv4	ipv4: isIpv4AndStore(ip: string; stored: var Ipv4): bool	
+isIpv4	iputils/ipv4.html#isIpv4,string	ipv4: isIpv4(ip: string): bool	
+ipv4ToUInt32	iputils/ipv4.html#ipv4ToUInt32,Ipv4	ipv4: ipv4ToUInt32(ip: Ipv4): uint32	
+uint32ToIpv4	iputils/ipv4.html#uint32ToIpv4,uint32	ipv4: uint32ToIpv4(ip: uint32): Ipv4	
+ipv4ToString	iputils/ipv4.html#ipv4ToString,Ipv4	ipv4: ipv4ToString(ip: Ipv4): string	
+`$`	iputils/ipv4.html#$,Ipv4	ipv4: `$`(ip: Ipv4): string	
+cmp	iputils/ipv4.html#cmp,Ipv4,Ipv4	ipv4: cmp(a, b: Ipv4): int	

@@ -1,0 +1,11 @@
+Ipv6	iputils/ipv6.html#Ipv6	ipv6: Ipv6	
+Ipv6Compressed	iputils/ipv6.html#Ipv6Compressed	Ipv6Mode.Ipv6Compressed	
+Ipv6LeadingZeros	iputils/ipv6.html#Ipv6LeadingZeros	Ipv6Mode.Ipv6LeadingZeros	
+Ipv6Expanded	iputils/ipv6.html#Ipv6Expanded	Ipv6Mode.Ipv6Expanded	
+Ipv6Mode	iputils/ipv6.html#Ipv6Mode	ipv6: Ipv6Mode	
+parseIpv6	iputils/ipv6.html#parseIpv6,string	ipv6: parseIpv6(ip: string): Ipv6	
+isIpv6AndStore	iputils/ipv6.html#isIpv6AndStore,string,Ipv6	ipv6: isIpv6AndStore(ip: string; stored: var Ipv6): bool	
+isIpv6	iputils/ipv6.html#isIpv6,string	ipv6: isIpv6(ip: string): bool	
+ipv6ToString	iputils/ipv6.html#ipv6ToString,Ipv6,Ipv6Mode	ipv6: ipv6ToString(ip: Ipv6; mode: Ipv6Mode = Ipv6Compressed): string	
+`$`	iputils/ipv6.html#$,Ipv6	ipv6: `$`(ip: Ipv6): string	
+cmp	iputils/ipv6.html#cmp,Ipv6,Ipv6	ipv6: cmp(a, b: Ipv6): int	
