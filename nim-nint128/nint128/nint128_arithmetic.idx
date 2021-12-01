@@ -1,0 +1,4 @@
+inc	nint128/nint128_arithmetic.html#inc,T,T	nint128_arithmetic: inc[T: SomeInt128](x: var T; y: T = one(T))	
+dec	nint128/nint128_arithmetic.html#dec,T,T	nint128_arithmetic: dec[T: SomeInt128](x: var T; y: T = one(T))	
+add64Plus64ToU128	nint128/nint128_arithmetic.html#add64Plus64ToU128,uint64,uint64	nint128_arithmetic: add64Plus64ToU128(x, y: uint64): UInt128	
+add64Plus64ToI128	nint128/nint128_arithmetic.html#add64Plus64ToI128,uint64,uint64	nint128_arithmetic: add64Plus64ToI128(x, y: uint64): Int128	

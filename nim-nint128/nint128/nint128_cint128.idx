@@ -1,0 +1,5 @@
+CInt128	nint128/nint128_cint128.html#CInt128	nint128_cint128: CInt128	
+CUInt128	nint128/nint128_cint128.html#CUInt128	nint128_cint128: CUInt128	
+shouldUseCInt128	nint128/nint128_cint128.html#shouldUseCInt128,string	nint128_cint128: shouldUseCInt128(cproc: string): bool	
+Usage	nint128/nint128_cint128.html#usage	 Usage	
+Important notes	nint128/nint128_cint128.html#important-notes	 Important notes	

@@ -1,0 +1,2 @@
+`&gt;=`	nint128/comparisons/greaterthanorequal.html#>=,UInt128,UInt128	greaterthanorequal: `&gt;=`(x, y: UInt128): bool	
+`&gt;=`	nint128/comparisons/greaterthanorequal.html#>=,Int128,Int128	greaterthanorequal: `&gt;=`(x, y: Int128): bool	

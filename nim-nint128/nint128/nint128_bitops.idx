@@ -1,0 +1,10 @@
+bitslice	nint128/nint128_bitops.html#bitslice,Int128,Slice[int]	nint128_bitops: bitslice(x: var Int128; slice: Slice[int])	
+bitslice	nint128/nint128_bitops.html#bitslice,UInt128,Slice[int]	nint128_bitops: bitslice(x: var UInt128; slice: Slice[int])	
+setBit	nint128/nint128_bitops.html#setBit,T,range[]	nint128_bitops: setBit[T: SomeInt128](x: var T; bit: range[0 .. 127])	
+clearBit	nint128/nint128_bitops.html#clearBit,T,range[]	nint128_bitops: clearBit[T: SomeInt128](x: var T; bit: range[0 .. 127])	
+flipBit	nint128/nint128_bitops.html#flipBit,T,range[]	nint128_bitops: flipBit[T: SomeInt128](x: var T; bit: range[0 .. 127])	
+testBit	nint128/nint128_bitops.html#testBit,T,range[]	nint128_bitops: testBit[T: SomeInt128](x: var T; bit: range[0 .. 127]): bool	
+countSetBits	nint128/nint128_bitops.html#countSetBits,SomeInt128	nint128_bitops: countSetBits(x: SomeInt128): int	
+countLeadingZeroBits	nint128/nint128_bitops.html#countLeadingZeroBits,SomeInt128	nint128_bitops: countLeadingZeroBits(x: SomeInt128): int	
+countTrailingZeroBits	nint128/nint128_bitops.html#countTrailingZeroBits,SomeInt128	nint128_bitops: countTrailingZeroBits(x: SomeInt128): int	
+fastLog2	nint128/nint128_bitops.html#fastLog2,SomeInt128	nint128_bitops: fastLog2(x: SomeInt128): int	

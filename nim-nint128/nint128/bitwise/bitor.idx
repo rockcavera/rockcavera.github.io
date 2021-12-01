@@ -1,0 +1,2 @@
+`or`	nint128/bitwise/bitor.html#or,UInt128,UInt128	bitor: `or`(x, y: UInt128): UInt128	
+`or`	nint128/bitwise/bitor.html#or,Int128,Int128	bitor: `or`(x, y: Int128): Int128	

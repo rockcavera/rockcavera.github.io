@@ -1,0 +1,3 @@
+`-`	nint128/arithmetic/subtraction.html#-,UInt128,UInt128	subtraction: `-`(x, y: UInt128): UInt128	
+`-`	nint128/arithmetic/subtraction.html#-,Int128,Int128	subtraction: `-`(x, y: Int128): Int128	
+`-=`	nint128/arithmetic/subtraction.html#-=,T,T	subtraction: `-=`[T: SomeInt128](x: var T; y: T)	

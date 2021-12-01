@@ -1,0 +1,4 @@
+`shl`	nint128/bitwise/shift.html#shl,UInt128,T	shift: `shl`[T: SomeInteger](x: UInt128; y: T): UInt128	
+`shl`	nint128/bitwise/shift.html#shl,Int128,T	shift: `shl`[T: SomeInteger](x: Int128; y: T): Int128	
+`shr`	nint128/bitwise/shift.html#shr,UInt128,T	shift: `shr`[T: SomeInteger](x: UInt128; y: T): UInt128	
+`shr`	nint128/bitwise/shift.html#shr,Int128,T	shift: `shr`[T: SomeInteger](x: Int128; y: T): Int128	

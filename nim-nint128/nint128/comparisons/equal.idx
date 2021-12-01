@@ -1,0 +1,2 @@
+`==`	nint128/comparisons/equal.html#==,UInt128,UInt128	equal: `==`(x, y: UInt128): bool	
+`==`	nint128/comparisons/equal.html#==,Int128,Int128	equal: `==`(x, y: Int128): bool	

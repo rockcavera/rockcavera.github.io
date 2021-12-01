@@ -1,0 +1,7 @@
+divmod	nint128/arithmetic/division.html#divmod,UInt128,UInt128	division: divmod(x, y: UInt128): tuple[q, r: UInt128]	
+divmod	nint128/arithmetic/division.html#divmod,Int128,Int128	division: divmod(x, y: Int128): tuple[q, r: Int128]	
+div128by64to64	nint128/arithmetic/division.html#div128by64to64,UInt128,uint64,uint64	division: div128by64to64(x: UInt128; y: uint64; remainder: var uint64): uint64	
+`div`	nint128/arithmetic/division.html#div,UInt128,UInt128	division: `div`(x, y: UInt128): UInt128	
+`div`	nint128/arithmetic/division.html#div,Int128,Int128	division: `div`(x, y: Int128): Int128	
+`mod`	nint128/arithmetic/division.html#mod,UInt128,UInt128	division: `mod`(x, y: UInt128): UInt128	
+`mod`	nint128/arithmetic/division.html#mod,Int128,Int128	division: `mod`(x, y: Int128): Int128	

@@ -1,0 +1,2 @@
+`and`	nint128/bitwise/bitand.html#and,UInt128,UInt128	bitand: `and`(x, y: UInt128): UInt128	
+`and`	nint128/bitwise/bitand.html#and,Int128,Int128	bitand: `and`(x, y: Int128): Int128	

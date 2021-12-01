@@ -1,0 +1,10 @@
+parseInt128	nint128/nint128_io.html#parseInt128,string	nint128_io: parseInt128(x: string): Int128	
+parseUInt128	nint128/nint128_io.html#parseUInt128,string	nint128_io: parseUInt128(x: string): UInt128	
+toBin	nint128/nint128_io.html#toBin,UInt128,range[]	nint128_io: toBin(x: UInt128; len: range[1 .. 128]): string	
+toBin	nint128/nint128_io.html#toBin,UInt128	nint128_io: toBin(x: UInt128): string	
+toOct	nint128/nint128_io.html#toOct,UInt128,range[]	nint128_io: toOct(x: UInt128; len: range[1 .. 43]): string	
+toOct	nint128/nint128_io.html#toOct,UInt128	nint128_io: toOct(x: UInt128): string	
+toHex	nint128/nint128_io.html#toHex,UInt128,range[]	nint128_io: toHex(x: UInt128; len: range[1 .. 32]): string	
+toHex	nint128/nint128_io.html#toHex,UInt128	nint128_io: toHex(x: UInt128): string	
+toString	nint128/nint128_io.html#toString,T	nint128_io: toString[T: SomeInt128](x: T): string	
+`$`	nint128/nint128_io.html#$,SomeInt128	nint128_io: `$`(x: SomeInt128): string	

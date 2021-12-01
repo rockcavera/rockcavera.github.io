@@ -1,0 +1,10 @@
+Int128	nint128/nint128_types.html#Int128	nint128_types: Int128	
+UInt128	nint128/nint128_types.html#UInt128	nint128_types: UInt128	
+SomeInt128	nint128/nint128_types.html#SomeInt128	nint128_types: SomeInt128	
+low	nint128/nint128_types.html#low,typedesc[Int128]	nint128_types: low(x: typedesc[Int128]): Int128	
+high	nint128/nint128_types.html#high,typedesc[Int128]	nint128_types: high(x: typedesc[Int128]): Int128	
+low	nint128/nint128_types.html#low,typedesc[UInt128]	nint128_types: low(x: typedesc[UInt128]): UInt128	
+high	nint128/nint128_types.html#high,typedesc[UInt128]	nint128_types: high(x: typedesc[UInt128]): UInt128	
+zero	nint128/nint128_types.html#zero,typedesc[T]	nint128_types: zero[T: SomeInt128](x: typedesc[T]): T	
+one	nint128/nint128_types.html#one,typedesc[T]	nint128_types: one[T: SomeInt128](x: typedesc[T]): T	
+ten	nint128/nint128_types.html#ten,typedesc[T]	nint128_types: ten[T: SomeInt128](x: typedesc[T]): T	

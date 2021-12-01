@@ -1,0 +1,2 @@
+`shl`	nint128/nint128_bitwise.html#shl.t,T,SomeInt128	nint128_bitwise: `shl`[T: SomeInt128](x: T; y: SomeInt128): T	
+`shr`	nint128/nint128_bitwise.html#shr.t,T,SomeInt128	nint128_bitwise: `shr`[T: SomeInt128](x: T; y: SomeInt128): T	

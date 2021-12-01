@@ -1,0 +1,2 @@
+`not`	nint128/bitwise/bitnot.html#not,UInt128	bitnot: `not`(x: UInt128): UInt128	
+`not`	nint128/bitwise/bitnot.html#not,Int128	bitnot: `not`(x: Int128): Int128	

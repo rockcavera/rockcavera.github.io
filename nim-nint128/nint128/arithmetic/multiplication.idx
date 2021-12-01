@@ -1,0 +1,7 @@
+mul64by64To128	nint128/arithmetic/multiplication.html#mul64by64To128,uint64,uint64	multiplication: mul64by64To128(a, b: uint64): UInt128	
+mul64by64To128	nint128/arithmetic/multiplication.html#mul64by64To128,uint64,uint64,uint64	multiplication: mul64by64To128(a, b: uint64; hi: var uint64): uint64	
+`*`	nint128/arithmetic/multiplication.html#*,UInt128,UInt128	multiplication: `*`(a, b: UInt128): UInt128	
+`*`	nint128/arithmetic/multiplication.html#*,Int128,Int128	multiplication: `*`(a, b: Int128): Int128	
+`*=`	nint128/arithmetic/multiplication.html#*=,T,T	multiplication: `*=`[T: SomeInt128](x: var T; y: T)	
+`*`	nint128/arithmetic/multiplication.html#*,UInt128,uint64	multiplication: `*`(a: UInt128; b: uint64): UInt128	
+`*`	nint128/arithmetic/multiplication.html#*.t,uint64,UInt128	multiplication: `*`(a: uint64; b: UInt128): UInt128	

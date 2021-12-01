@@ -1,0 +1,1 @@
+nint128Cast	nint128/nint128_cast.html#nint128Cast.t	nint128_cast: nint128Cast[T](x: Int128 | UInt128): T	

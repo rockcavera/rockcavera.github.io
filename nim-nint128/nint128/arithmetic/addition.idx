@@ -1,0 +1,7 @@
+`+`	nint128/arithmetic/addition.html#+,UInt128,UInt128	addition: `+`(x, y: UInt128): UInt128	
+`+`	nint128/arithmetic/addition.html#+,Int128,Int128	addition: `+`(x, y: Int128): Int128	
+`+=`	nint128/arithmetic/addition.html#+=,T,T	addition: `+=`[T: SomeInt128](x: var T; y: T)	
+`+`	nint128/arithmetic/addition.html#+,UInt128,uint64	addition: `+`(x: UInt128; y: uint64): UInt128	
+`+`	nint128/arithmetic/addition.html#+,Int128,uint64	addition: `+`(x: Int128; y: uint64): Int128	
+`+=`	nint128/arithmetic/addition.html#+=,T,uint64	addition: `+=`[T: SomeInt128](x: var T; y: uint64)	
+`+`	nint128/arithmetic/addition.html#+.t,uint64,T	addition: `+`[T: SomeInt128](x: uint64; y: T): T	
