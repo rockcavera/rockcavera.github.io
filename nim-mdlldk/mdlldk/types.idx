@@ -1,0 +1,6 @@
+BOOL	mdlldk/types.html#BOOL	types: BOOL	
+HWND	mdlldk/types.html#HWND	types: HWND	
+LoadInfo	mdlldk/types.html#LoadInfo	types: LoadInfo	
+UnloadMode	mdlldk/types.html#UnloadMode	types: UnloadMode	
+UnloadReturn	mdlldk/types.html#UnloadReturn	types: UnloadReturn	
+ProcReturn	mdlldk/types.html#ProcReturn	types: ProcReturn	

@@ -1,0 +1,8 @@
+addProcToExport	mdlldk.html#addProcToExport,string,int	mdlldk: addProcToExport(name: string; size: int)	
+exportAllProcs	mdlldk.html#exportAllProcs.t	mdlldk: exportAllProcs()	
+addLoadProc	mdlldk.html#addLoadProc.t,bool,bool,untyped	mdlldk: addLoadProc(keepLoaded, strUnicode: bool; body: untyped)	
+addUnloadProc	mdlldk.html#addUnloadProc.t,UnloadReturn,untyped	mdlldk: addUnloadProc(unused: UnloadReturn; body: untyped)	
+newProcToExport	mdlldk.html#newProcToExport.t,untyped,untyped	mdlldk: newProcToExport(procname, body: untyped)	
+newProcToExportW	mdlldk.html#newProcToExportW.t,untyped,untyped	mdlldk: newProcToExportW(procname, body: untyped)	
+newProcToExportA	mdlldk.html#newProcToExportA.t,untyped,untyped	mdlldk: newProcToExportA(procname, body: untyped)	
+Basic Use	mdlldk.html#basic-use	 Basic Use	
