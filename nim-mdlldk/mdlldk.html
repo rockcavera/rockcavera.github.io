@@ -261,7 +261,7 @@ class="link-seesrc" target="_blank">Source</a>
 Adds and exports the LoadDll() procedure, which is called when the dll is loaded in mIRC from version 5.8 onwards. In addition to adding the LoadDll() procedure, which captures and stores the information passed by mIRC to the dll, through the <tt class="docutils literal"><span class="pre"><span class="Identifier">LoadInfo</span></span></tt> object, it makes some corrections that facilitate the development of the dll, such as:<ul class="simple"><li>determine the total bytes value allocated to the <tt class="docutils literal"><span class="pre"><span class="Identifier">data</span></span></tt> and <tt class="docutils literal"><span class="pre"><span class="Identifier">parms</span></span></tt> parameters according to the mIRC version and string type (<tt class="docutils literal"><span class="pre"><span class="Identifier">WideCString</span></span></tt> or <tt class="docutils literal"><span class="pre"><span class="Identifier">cstring</span></span></tt>), since the <tt class="docutils literal"><span class="pre"><span class="Identifier">LoadInfo</span></span></tt> object did not always pass such information.</li>
 <li>to correct and determine the version passed in the <tt class="docutils literal"><span class="pre"><span class="Identifier">mVersion</span></span></tt> field, of the <tt class="docutils literal"><span class="pre"><span class="Identifier">LoadInfo</span></span></tt> object, because in some versions the major version of mIRC was passed as 0 and after version 6.21 mIRC started to adopt the filling with zero to the right of the minor version, which was not done previously and caused ambiguity between versions.</li>
 </ul>
-<p>It also adds other Nim procedures to help with development. However, to have access to these added procedures it is necessary to call the <tt class="docutils literal"><span class="pre"><span class="Identifier">addLoadProc</span><span class="Punctuation">(</span><span class="Punctuation">)</span></span></tt> template on a line above the procedure usage. <strong>See the list of added procedures</strong> <a class="reference external" href="mdlldk/onlydocumentation.html#12">here</a>.</p>
+<p>It also adds other Nim procedures to help with development. However, to have access to these added procedures it is necessary to call the <tt class="docutils literal"><span class="pre"><span class="Identifier">addLoadProc</span><span class="Punctuation">(</span><span class="Punctuation">)</span></span></tt> template on a line above the procedure usage. See the list of added procedures <a class="reference external" href="mdlldk/onlydocumentation.html#12">here</a>.</p>
 <p><strong>Template parameters</strong></p>
 <ul class="simple"><li><tt class="docutils literal"><span class="pre"><span class="Identifier">keepLoaded</span></span></tt> sets the <tt class="docutils literal"><span class="pre"><span class="Identifier">mKeep</span></span></tt> field of the <tt class="docutils literal"><span class="pre"><span class="Identifier">LoadInfo</span></span></tt> object, if possible. If it is <tt class="docutils literal"><span class="pre"><span class="Identifier">true</span></span></tt> it will keep the dll loaded after being called, however, if it is <tt class="docutils literal"><span class="pre"><span class="Identifier">false</span></span></tt>, the dll will be unloaded right after use. See <tt class="docutils literal"><span class="pre"><span class="Identifier">mKeep</span></span></tt> field in <a class="reference external" href="mdlldk/types.html#LoadInfo">LoadInfo</a>.</li>
 <li><tt class="docutils literal"><span class="pre"><span class="Identifier">strUnicode</span></span></tt> sets the <tt class="docutils literal"><span class="pre"><span class="Identifier">mUnicode</span></span></tt> field of the <tt class="docutils literal"><span class="pre"><span class="Identifier">LoadInfo</span></span></tt> object, if possible. If it is <tt class="docutils literal"><span class="pre"><span class="Identifier">true</span></span></tt> the communication between mIRC and dll will be by the use of unicode strings (<tt class="docutils literal"><span class="pre"><span class="Identifier">WideCString</span></span></tt>), however, if it is <tt class="docutils literal"><span class="pre"><span class="Identifier">false</span></span></tt>, the communication will be by ANSI strings (<tt class="docutils literal"><span class="pre"><span class="Identifier">cstring</span></span></tt>). See <tt class="docutils literal"><span class="pre"><span class="Identifier">mUnicode</span></span></tt> field in <a class="reference external" href="mdlldk/types.html#LoadInfo">LoadInfo</a>.</li>
@@ -294,9 +294,9 @@ class="link-seesrc" target="_blank">Source</a>
 </ul>
 
 &nbsp;&nbsp;<a
-href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L345"
+href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L344"
 class="link-seesrc" target="_blank">Source</a>
-&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L345" class="link-seesrc" target="_blank" >Edit</a>
+&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L344" class="link-seesrc" target="_blank" >Edit</a>
 
 </dd>
 </div>
@@ -353,9 +353,9 @@ class="link-seesrc" target="_blank">Source</a>
 </ul>
 
 &nbsp;&nbsp;<a
-href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L375"
+href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L374"
 class="link-seesrc" target="_blank">Source</a>
-&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L375" class="link-seesrc" target="_blank" >Edit</a>
+&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L374" class="link-seesrc" target="_blank" >Edit</a>
 
 </dd>
 </div>
@@ -385,9 +385,9 @@ class="link-seesrc" target="_blank">Source</a>
 </ul>
 
 &nbsp;&nbsp;<a
-href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L500"
+href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L499"
 class="link-seesrc" target="_blank">Source</a>
-&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L500" class="link-seesrc" target="_blank" >Edit</a>
+&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L499" class="link-seesrc" target="_blank" >Edit</a>
 
 </dd>
 </div>
@@ -417,9 +417,9 @@ class="link-seesrc" target="_blank">Source</a>
 </ul>
 
 &nbsp;&nbsp;<a
-href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L461"
+href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L460"
 class="link-seesrc" target="_blank">Source</a>
-&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L461" class="link-seesrc" target="_blank" >Edit</a>
+&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L460" class="link-seesrc" target="_blank" >Edit</a>
 
 </dd>
 </div>
@@ -440,7 +440,7 @@ class="link-seesrc" target="_blank">Source</a>
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2022-02-11 14:07:39 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2022-02-11 23:02:50 UTC</small>
       </div>
     </div>
   </div>
