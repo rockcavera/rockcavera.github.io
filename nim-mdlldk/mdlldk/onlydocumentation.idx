@@ -1,0 +1,10 @@
+mMajor	mdlldk/onlydocumentation.html#mMajor	onlydocumentation: mMajor(): int	
+mMinor	mdlldk/onlydocumentation.html#mMinor	onlydocumentation: mMinor(): int	
+mBeta	mdlldk/onlydocumentation.html#mBeta	onlydocumentation: mBeta(): int	
+mMaxBytes	mdlldk/onlydocumentation.html#mMaxBytes	onlydocumentation: mMaxBytes(): int	
+mKeepLoaded	mdlldk/onlydocumentation.html#mKeepLoaded	onlydocumentation: mKeepLoaded(): bool	
+mUnicode	mdlldk/onlydocumentation.html#mUnicode	onlydocumentation: mUnicode(): bool	
+mMainWindowHandle	mdlldk/onlydocumentation.html#mMainWindowHandle	onlydocumentation: mMainWindowHandle(): HWND	
+mRawVersion	mdlldk/onlydocumentation.html#mRawVersion	onlydocumentation: mRawVersion(): uint32	
+mToCStringAndCopy	mdlldk/onlydocumentation.html#mToCStringAndCopy,,string	onlydocumentation: mToCStringAndCopy(dest: pointer | cstring; source: string)	
+mToWideCStringAndCopy	mdlldk/onlydocumentation.html#mToWideCStringAndCopy,,string	onlydocumentation: mToWideCStringAndCopy(dest: pointer | WideCString; source: string)	
