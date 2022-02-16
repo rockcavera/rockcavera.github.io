@@ -108,7 +108,12 @@ window.addEventListener('DOMContentLoaded', main);
 <li>
   <a class="reference reference-toplevel" href="#12" id="62">Procs</a>
   <ul class="simple simple-toc-section">
-      <ul class="simple nested-toc-section">addProcToExport
+      <ul class="simple nested-toc-section">addAliasFor
+      <li><a class="reference" href="#addAliasFor%2Cstring%2Cstring"
+    title="addAliasFor(procName, aliasName: string)">addAliasFor(procName, aliasName: string)</a></li>
+
+  </ul>
+  <ul class="simple nested-toc-section">addProcToExport
       <li><a class="reference" href="#addProcToExport%2Cstring%2Cint"
     title="addProcToExport(name: string; size: int)">addProcToExport(name: string; size: int)</a></li>
 
@@ -225,6 +230,23 @@ class="link-seesrc" target="_blank">Source</a>
 <h1><a class="toc-backref" href="#12">Procs</a></h1>
 <dl class="item">
 
+<div id="addAliasFor-procs-all">
+<div id="addAliasFor,string,string">
+<dt><pre><span class="Keyword">proc</span> <a href="#addAliasFor%2Cstring%2Cstring"><span class="Identifier">addAliasFor</span></a><span class="Other">(</span><span class="Identifier">procName</span><span class="Other">,</span> <span class="Identifier">aliasName</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span> {.<span class="Identifier">compileTime</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span>
+    <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
+<dd>
+
+Adds an alias <tt class="docutils literal"><span class="pre"><span class="Identifier">aliasName</span></span></tt> to a procedure <tt class="docutils literal"><span class="pre"><span class="Identifier">procName</span></span></tt> already exported to the dll.
+&nbsp;&nbsp;<a
+href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L182"
+class="link-seesrc" target="_blank">Source</a>
+&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L182" class="link-seesrc" target="_blank" >Edit</a>
+
+</dd>
+</div>
+
+</div>
+
 <div id="addProcToExport-procs-all">
 <div id="addProcToExport,string,int">
 <dt><pre><span class="Keyword">proc</span> <a href="#addProcToExport%2Cstring%2Cint"><span class="Identifier">addProcToExport</span></a><span class="Other">(</span><span class="Identifier">name</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">;</span> <span class="Identifier">size</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span> {.<span class="Identifier">compileTime</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span>
@@ -239,9 +261,9 @@ class="link-seesrc" target="_blank">Source</a>
 </ul>
 
 &nbsp;&nbsp;<a
-href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L161"
+href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L172"
 class="link-seesrc" target="_blank">Source</a>
-&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L161" class="link-seesrc" target="_blank" >Edit</a>
+&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L172" class="link-seesrc" target="_blank" >Edit</a>
 
 </dd>
 </div>
@@ -269,9 +291,9 @@ Adds and exports the LoadDll() procedure, which is called when the dll is loaded
 </ul>
 
 &nbsp;&nbsp;<a
-href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L177"
+href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L192"
 class="link-seesrc" target="_blank">Source</a>
-&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L177" class="link-seesrc" target="_blank" >Edit</a>
+&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L192" class="link-seesrc" target="_blank" >Edit</a>
 
 </dd>
 </div>
@@ -294,9 +316,9 @@ class="link-seesrc" target="_blank">Source</a>
 </ul>
 
 &nbsp;&nbsp;<a
-href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L344"
+href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L359"
 class="link-seesrc" target="_blank">Source</a>
-&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L344" class="link-seesrc" target="_blank" >Edit</a>
+&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L359" class="link-seesrc" target="_blank" >Edit</a>
 
 </dd>
 </div>
@@ -310,9 +332,9 @@ class="link-seesrc" target="_blank">Source</a>
 
 This template must be called at the end of your Nim code so that the .def file can be created with the name of all the procedures that must be exported to the dll.
 &nbsp;&nbsp;<a
-href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L171"
+href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L186"
 class="link-seesrc" target="_blank">Source</a>
-&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L171" class="link-seesrc" target="_blank" >Edit</a>
+&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L186" class="link-seesrc" target="_blank" >Edit</a>
 
 </dd>
 </div>
@@ -353,9 +375,9 @@ class="link-seesrc" target="_blank">Source</a>
 </ul>
 
 &nbsp;&nbsp;<a
-href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L374"
+href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L389"
 class="link-seesrc" target="_blank">Source</a>
-&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L374" class="link-seesrc" target="_blank" >Edit</a>
+&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L389" class="link-seesrc" target="_blank" >Edit</a>
 
 </dd>
 </div>
@@ -385,9 +407,9 @@ class="link-seesrc" target="_blank">Source</a>
 </ul>
 
 &nbsp;&nbsp;<a
-href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L499"
+href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L514"
 class="link-seesrc" target="_blank">Source</a>
-&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L499" class="link-seesrc" target="_blank" >Edit</a>
+&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L514" class="link-seesrc" target="_blank" >Edit</a>
 
 </dd>
 </div>
@@ -417,9 +439,9 @@ class="link-seesrc" target="_blank">Source</a>
 </ul>
 
 &nbsp;&nbsp;<a
-href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L460"
+href="https://github.com/rockcavera/nim-mdlldk/tree/main/src/mdlldk.nim#L475"
 class="link-seesrc" target="_blank">Source</a>
-&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L460" class="link-seesrc" target="_blank" >Edit</a>
+&nbsp;&nbsp;<a href="https://github.com/rockcavera/nim-mdlldk/edit/main/src/mdlldk.nim#L475" class="link-seesrc" target="_blank" >Edit</a>
 
 </dd>
 </div>
@@ -440,7 +462,7 @@ class="link-seesrc" target="_blank">Source</a>
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2022-02-11 23:02:50 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2022-02-16 03:02:24 UTC</small>
       </div>
     </div>
   </div>
