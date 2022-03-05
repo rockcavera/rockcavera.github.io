@@ -70,7 +70,7 @@ window.addEventListener('DOMContentLoaded', main);
 <div class="document" id="documentId">
   <div class="container">
     <h1 class="title">Index</h1>
-    Modules: <a href="nint128.html">nint128</a>, <a href="nint128/arithmetic/addition.html">nint128/arithmetic/addition</a>, <a href="nint128/arithmetic/division.html">nint128/arithmetic/division</a>, <a href="nint128/arithmetic/minus.html">nint128/arithmetic/minus</a>, <a href="nint128/arithmetic/multiplication.html">nint128/arithmetic/multiplication</a>, <a href="nint128/arithmetic/subtraction.html">nint128/arithmetic/subtraction</a>, <a href="nint128/bitwise/bitand.html">nint128/bitwise/bitand</a>, <a href="nint128/bitwise/bitnot.html">nint128/bitwise/bitnot</a>, <a href="nint128/bitwise/bitor.html">nint128/bitwise/bitor</a>, <a href="nint128/bitwise/bitxor.html">nint128/bitwise/bitxor</a>, <a href="nint128/bitwise/shift.html">nint128/bitwise/shift</a>, <a href="nint128/comparisons/equal.html">nint128/comparisons/equal</a>, <a href="nint128/comparisons/greaterthan.html">nint128/comparisons/greaterthan</a>, <a href="nint128/comparisons/greaterthanorequal.html">nint128/comparisons/greaterthanorequal</a>, <a href="nint128/comparisons/lessthan.html">nint128/comparisons/lessthan</a>, <a href="nint128/comparisons/lessthanorequal.html">nint128/comparisons/lessthanorequal</a>, <a href="nint128/comparisons/notequal.html">nint128/comparisons/notequal</a>, <a href="nint128/nint128_arithmetic.html">nint128/nint128_arithmetic</a>, <a href="nint128/nint128_bitops.html">nint128/nint128_bitops</a>, <a href="nint128/nint128_bitwise.html">nint128/nint128_bitwise</a>, <a href="nint128/nint128_cast.html">nint128/nint128_cast</a>, <a href="nint128/nint128_cint128.html">nint128/nint128_cint128</a>, <a href="nint128/nint128_comparisons.html">nint128/nint128_comparisons</a>, <a href="nint128/nint128_io.html">nint128/nint128_io</a>, <a href="nint128/nint128_math.html">nint128/nint128_math</a>, <a href="nint128/nint128_types.html">nint128/nint128_types</a>.<br/><p /><h2>API symbols</h2>
+    Modules: <a href="nint128.html">nint128</a>, <a href="nint128/arithmetic/addition.html">nint128/arithmetic/addition</a>, <a href="nint128/arithmetic/division.html">nint128/arithmetic/division</a>, <a href="nint128/arithmetic/minus.html">nint128/arithmetic/minus</a>, <a href="nint128/arithmetic/multiplication.html">nint128/arithmetic/multiplication</a>, <a href="nint128/arithmetic/subtraction.html">nint128/arithmetic/subtraction</a>, <a href="nint128/bitwise/bitand.html">nint128/bitwise/bitand</a>, <a href="nint128/bitwise/bitnot.html">nint128/bitwise/bitnot</a>, <a href="nint128/bitwise/bitor.html">nint128/bitwise/bitor</a>, <a href="nint128/bitwise/bitxor.html">nint128/bitwise/bitxor</a>, <a href="nint128/bitwise/shift.html">nint128/bitwise/shift</a>, <a href="nint128/comparisons/equal.html">nint128/comparisons/equal</a>, <a href="nint128/comparisons/greaterthan.html">nint128/comparisons/greaterthan</a>, <a href="nint128/comparisons/greaterthanorequal.html">nint128/comparisons/greaterthanorequal</a>, <a href="nint128/comparisons/lessthan.html">nint128/comparisons/lessthan</a>, <a href="nint128/comparisons/lessthanorequal.html">nint128/comparisons/lessthanorequal</a>, <a href="nint128/comparisons/notequal.html">nint128/comparisons/notequal</a>, <a href="nint128/nint128_arithmetic.html">nint128/nint128_arithmetic</a>, <a href="nint128/nint128_bitops.html">nint128/nint128_bitops</a>, <a href="nint128/nint128_bitwise.html">nint128/nint128_bitwise</a>, <a href="nint128/nint128_cast.html">nint128/nint128_cast</a>, <a href="nint128/nint128_cint128.html">nint128/nint128_cint128</a>, <a href="nint128/nint128_comparisons.html">nint128/nint128_comparisons</a>, <a href="nint128/nint128_endians.html">nint128/nint128_endians</a>, <a href="nint128/nint128_io.html">nint128/nint128_io</a>, <a href="nint128/nint128_math.html">nint128/nint128_math</a>, <a href="nint128/nint128_types.html">nint128/nint128_types</a>, <a href="nint128/vendor/stew/endians2.html">nint128/vendor/stew/endians2</a>.<br/><p /><h2>API symbols</h2>
 <dl><dt><a name="%60%21%3D%60" href="#%60%21%3D%60"><span>`!=`:</span></a></dt><dd><ul class="simple">
 <li><a class="reference external"
           data-doc-search-tag="notequal: `!=`(x, y: Int128): bool" href="nint128/comparisons/notequal.html#%21%3D%2CInt128%2CInt128">notequal: `!=`(x, y: Int128): bool</a></li>
@@ -273,6 +273,40 @@ window.addEventListener('DOMContentLoaded', main);
 <li><a class="reference external"
           data-doc-search-tag="nint128_bitops: flipBit[T: SomeInt128](x: var T; bit: range[0 .. 127])" href="nint128/nint128_bitops.html#flipBit%2CT%2Crange%5B%5D">nint128_bitops: flipBit[T: SomeInt128](x: var T; bit: range[0 .. 127])</a></li>
           </ul></dd>
+<dt><a name="fromBE" href="#fromBE"><span>fromBE:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="nint128_endians: fromBE(x: UInt128): UInt128" href="nint128/nint128_endians.html#fromBE%2CUInt128">nint128_endians: fromBE(x: UInt128): UInt128</a></li>
+          <li><a class="reference external"
+          data-doc-search-tag="endians2: fromBE[T: SomeEndianInt](x: T): T" href="nint128/vendor/stew/endians2.html#fromBE%2CT">endians2: fromBE[T: SomeEndianInt](x: T): T</a></li>
+          </ul></dd>
+<dt><a name="fromBytes" href="#fromBytes"><span>fromBytes:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="nint128_endians: fromBytes(T: typedesc[UInt128]; x: openArray[byte];
+          endian: Endianness = system.cpuEndian): UInt128" href="nint128/nint128_endians.html#fromBytes%2Ctypedesc%5BUInt128%5D%2CopenArray%5Bbyte%5D%2CEndianness">nint128_endians: fromBytes(T: typedesc[UInt128]; x: openArray[byte];
+          endian: Endianness = system.cpuEndian): UInt128</a></li>
+          <li><a class="reference external"
+          data-doc-search-tag="endians2: fromBytes(T: typedesc[SomeEndianInt]; x: openArray[byte];
+          endian: Endianness = system.cpuEndian): T:type" href="nint128/vendor/stew/endians2.html#fromBytes%2Ctypedesc%5BSomeEndianInt%5D%2CopenArray%5Bbyte%5D%2CEndianness">endians2: fromBytes(T: typedesc[SomeEndianInt]; x: openArray[byte];
+          endian: Endianness = system.cpuEndian): T:type</a></li>
+          </ul></dd>
+<dt><a name="fromBytesBE" href="#fromBytesBE"><span>fromBytesBE:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="nint128_endians: fromBytesBE(T: typedesc[UInt128]; x: openArray[byte]): UInt128" href="nint128/nint128_endians.html#fromBytesBE%2Ctypedesc%5BUInt128%5D%2CopenArray%5Bbyte%5D">nint128_endians: fromBytesBE(T: typedesc[UInt128]; x: openArray[byte]): UInt128</a></li>
+          <li><a class="reference external"
+          data-doc-search-tag="endians2: fromBytesBE(T: typedesc[SomeEndianInt]; x: openArray[byte]): T:type" href="nint128/vendor/stew/endians2.html#fromBytesBE%2Ctypedesc%5BSomeEndianInt%5D%2CopenArray%5Bbyte%5D">endians2: fromBytesBE(T: typedesc[SomeEndianInt]; x: openArray[byte]): T:type</a></li>
+          </ul></dd>
+<dt><a name="fromBytesLE" href="#fromBytesLE"><span>fromBytesLE:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="nint128_endians: fromBytesLE(T: typedesc[UInt128]; x: openArray[byte]): UInt128" href="nint128/nint128_endians.html#fromBytesLE%2Ctypedesc%5BUInt128%5D%2CopenArray%5Bbyte%5D">nint128_endians: fromBytesLE(T: typedesc[UInt128]; x: openArray[byte]): UInt128</a></li>
+          <li><a class="reference external"
+          data-doc-search-tag="endians2: fromBytesLE(T: typedesc[SomeEndianInt]; x: openArray[byte]): T:type" href="nint128/vendor/stew/endians2.html#fromBytesLE%2Ctypedesc%5BSomeEndianInt%5D%2CopenArray%5Bbyte%5D">endians2: fromBytesLE(T: typedesc[SomeEndianInt]; x: openArray[byte]): T:type</a></li>
+          </ul></dd>
+<dt><a name="fromLE" href="#fromLE"><span>fromLE:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="nint128_endians: fromLE(x: UInt128): UInt128" href="nint128/nint128_endians.html#fromLE%2CUInt128">nint128_endians: fromLE(x: UInt128): UInt128</a></li>
+          <li><a class="reference external"
+          data-doc-search-tag="endians2: fromLE[T: SomeEndianInt](x: T): T" href="nint128/vendor/stew/endians2.html#fromLE%2CT">endians2: fromLE[T: SomeEndianInt](x: T): T</a></li>
+          </ul></dd>
 <dt><a name="high" href="#high"><span>high:</span></a></dt><dd><ul class="simple">
 <li><a class="reference external"
           data-doc-search-tag="nint128_types: high(x: typedesc[Int128]): Int128" href="nint128/nint128_types.html#high%2Ctypedesc%5BInt128%5D">nint128_types: high(x: typedesc[Int128]): Int128</a></li>
@@ -333,9 +367,19 @@ window.addEventListener('DOMContentLoaded', main);
 <li><a class="reference external"
           data-doc-search-tag="nint128_cint128: shouldUseCInt128(cproc: string): bool" href="nint128/nint128_cint128.html#shouldUseCInt128%2Cstring">nint128_cint128: shouldUseCInt128(cproc: string): bool</a></li>
           </ul></dd>
+<dt><a name="SomeEndianInt" href="#SomeEndianInt"><span>SomeEndianInt:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="endians2: SomeEndianInt" href="nint128/vendor/stew/endians2.html#SomeEndianInt">endians2: SomeEndianInt</a></li>
+          </ul></dd>
 <dt><a name="SomeInt128" href="#SomeInt128"><span>SomeInt128:</span></a></dt><dd><ul class="simple">
 <li><a class="reference external"
           data-doc-search-tag="nint128_types: SomeInt128" href="nint128/nint128_types.html#SomeInt128">nint128_types: SomeInt128</a></li>
+          </ul></dd>
+<dt><a name="swapBytes" href="#swapBytes"><span>swapBytes:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="nint128_endians: swapBytes(x: UInt128): UInt128" href="nint128/nint128_endians.html#swapBytes%2CUInt128">nint128_endians: swapBytes(x: UInt128): UInt128</a></li>
+          <li><a class="reference external"
+          data-doc-search-tag="endians2: swapBytes[T: SomeEndianInt](x: T): T" href="nint128/vendor/stew/endians2.html#swapBytes%2CT">endians2: swapBytes[T: SomeEndianInt](x: T): T</a></li>
           </ul></dd>
 <dt><a name="ten" href="#ten"><span>ten:</span></a></dt><dd><ul class="simple">
 <li><a class="reference external"
@@ -345,17 +389,49 @@ window.addEventListener('DOMContentLoaded', main);
 <li><a class="reference external"
           data-doc-search-tag="nint128_bitops: testBit[T: SomeInt128](x: var T; bit: range[0 .. 127]): bool" href="nint128/nint128_bitops.html#testBit%2CT%2Crange%5B%5D">nint128_bitops: testBit[T: SomeInt128](x: var T; bit: range[0 .. 127]): bool</a></li>
           </ul></dd>
+<dt><a name="toBE" href="#toBE"><span>toBE:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="nint128_endians: toBE(x: UInt128): UInt128" href="nint128/nint128_endians.html#toBE%2CUInt128">nint128_endians: toBE(x: UInt128): UInt128</a></li>
+          <li><a class="reference external"
+          data-doc-search-tag="endians2: toBE[T: SomeEndianInt](x: T): T" href="nint128/vendor/stew/endians2.html#toBE%2CT">endians2: toBE[T: SomeEndianInt](x: T): T</a></li>
+          </ul></dd>
 <dt><a name="toBin" href="#toBin"><span>toBin:</span></a></dt><dd><ul class="simple">
 <li><a class="reference external"
           data-doc-search-tag="nint128_io: toBin(x: UInt128): string" href="nint128/nint128_io.html#toBin%2CUInt128">nint128_io: toBin(x: UInt128): string</a></li>
           <li><a class="reference external"
           data-doc-search-tag="nint128_io: toBin(x: UInt128; len: range[1 .. 128]): string" href="nint128/nint128_io.html#toBin%2CUInt128%2Crange%5B%5D">nint128_io: toBin(x: UInt128; len: range[1 .. 128]): string</a></li>
           </ul></dd>
+<dt><a name="toBytes" href="#toBytes"><span>toBytes:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="nint128_endians: toBytes(x: UInt128; endian: Endianness = system.cpuEndian): array[16, byte]" href="nint128/nint128_endians.html#toBytes%2CUInt128%2CEndianness">nint128_endians: toBytes(x: UInt128; endian: Endianness = system.cpuEndian): array[16, byte]</a></li>
+          <li><a class="reference external"
+          data-doc-search-tag="endians2: toBytes(x: SomeEndianInt; endian: Endianness = system.cpuEndian): array[
+    sizeof(x), byte]" href="nint128/vendor/stew/endians2.html#toBytes%2CSomeEndianInt%2CEndianness">endians2: toBytes(x: SomeEndianInt; endian: Endianness = system.cpuEndian): array[
+    sizeof(x), byte]</a></li>
+          </ul></dd>
+<dt><a name="toBytesBE" href="#toBytesBE"><span>toBytesBE:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="nint128_endians: toBytesBE(x: UInt128): array[16, byte]" href="nint128/nint128_endians.html#toBytesBE%2CUInt128">nint128_endians: toBytesBE(x: UInt128): array[16, byte]</a></li>
+          <li><a class="reference external"
+          data-doc-search-tag="endians2: toBytesBE(x: SomeEndianInt): array[sizeof(x), byte]" href="nint128/vendor/stew/endians2.html#toBytesBE%2CSomeEndianInt">endians2: toBytesBE(x: SomeEndianInt): array[sizeof(x), byte]</a></li>
+          </ul></dd>
+<dt><a name="toBytesLE" href="#toBytesLE"><span>toBytesLE:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="nint128_endians: toBytesLE(x: UInt128): array[16, byte]" href="nint128/nint128_endians.html#toBytesLE%2CUInt128">nint128_endians: toBytesLE(x: UInt128): array[16, byte]</a></li>
+          <li><a class="reference external"
+          data-doc-search-tag="endians2: toBytesLE(x: SomeEndianInt): array[sizeof(x), byte]" href="nint128/vendor/stew/endians2.html#toBytesLE%2CSomeEndianInt">endians2: toBytesLE(x: SomeEndianInt): array[sizeof(x), byte]</a></li>
+          </ul></dd>
 <dt><a name="toHex" href="#toHex"><span>toHex:</span></a></dt><dd><ul class="simple">
 <li><a class="reference external"
           data-doc-search-tag="nint128_io: toHex(x: UInt128): string" href="nint128/nint128_io.html#toHex%2CUInt128">nint128_io: toHex(x: UInt128): string</a></li>
           <li><a class="reference external"
           data-doc-search-tag="nint128_io: toHex(x: UInt128; len: range[1 .. 32]): string" href="nint128/nint128_io.html#toHex%2CUInt128%2Crange%5B%5D">nint128_io: toHex(x: UInt128; len: range[1 .. 32]): string</a></li>
+          </ul></dd>
+<dt><a name="toLE" href="#toLE"><span>toLE:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="nint128_endians: toLE(x: UInt128): UInt128" href="nint128/nint128_endians.html#toLE%2CUInt128">nint128_endians: toLE(x: UInt128): UInt128</a></li>
+          <li><a class="reference external"
+          data-doc-search-tag="endians2: toLE[T: SomeEndianInt](x: T): T" href="nint128/vendor/stew/endians2.html#toLE%2CT">endians2: toLE[T: SomeEndianInt](x: T): T</a></li>
           </ul></dd>
 <dt><a name="toOct" href="#toOct"><span>toOct:</span></a></dt><dd><ul class="simple">
 <li><a class="reference external"
@@ -386,7 +462,7 @@ window.addEventListener('DOMContentLoaded', main);
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2021-12-01 18:50:25 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2022-03-05 01:27:54 UTC</small>
       </div>
     </div>
   </div>

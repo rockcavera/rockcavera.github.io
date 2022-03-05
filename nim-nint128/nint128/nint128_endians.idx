@@ -1,0 +1,11 @@
+swapBytes	nint128/nint128_endians.html#swapBytes,UInt128	nint128_endians: swapBytes(x: UInt128): UInt128	
+toBytes	nint128/nint128_endians.html#toBytes,UInt128,Endianness	nint128_endians: toBytes(x: UInt128; endian: Endianness = system.cpuEndian): array[16, byte]	
+toBytesLE	nint128/nint128_endians.html#toBytesLE,UInt128	nint128_endians: toBytesLE(x: UInt128): array[16, byte]	
+toBytesBE	nint128/nint128_endians.html#toBytesBE,UInt128	nint128_endians: toBytesBE(x: UInt128): array[16, byte]	
+fromBytes	nint128/nint128_endians.html#fromBytes,typedesc[UInt128],openArray[byte],Endianness	nint128_endians: fromBytes(T: typedesc[UInt128]; x: openArray[byte];\n          endian: Endianness = system.cpuEndian): UInt128	
+fromBytesBE	nint128/nint128_endians.html#fromBytesBE,typedesc[UInt128],openArray[byte]	nint128_endians: fromBytesBE(T: typedesc[UInt128]; x: openArray[byte]): UInt128	
+toBE	nint128/nint128_endians.html#toBE,UInt128	nint128_endians: toBE(x: UInt128): UInt128	
+fromBE	nint128/nint128_endians.html#fromBE,UInt128	nint128_endians: fromBE(x: UInt128): UInt128	
+fromBytesLE	nint128/nint128_endians.html#fromBytesLE,typedesc[UInt128],openArray[byte]	nint128_endians: fromBytesLE(T: typedesc[UInt128]; x: openArray[byte]): UInt128	
+toLE	nint128/nint128_endians.html#toLE,UInt128	nint128_endians: toLE(x: UInt128): UInt128	
+fromLE	nint128/nint128_endians.html#fromLE,UInt128	nint128_endians: fromLE(x: UInt128): UInt128	

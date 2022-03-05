@@ -1,0 +1,12 @@
+SomeEndianInt	nint128/vendor/stew/endians2.html#SomeEndianInt	endians2: SomeEndianInt	
+swapBytes	nint128/vendor/stew/endians2.html#swapBytes,T	endians2: swapBytes[T: SomeEndianInt](x: T): T	
+toBytes	nint128/vendor/stew/endians2.html#toBytes,SomeEndianInt,Endianness	endians2: toBytes(x: SomeEndianInt; endian: Endianness = system.cpuEndian): array[\n    sizeof(x), byte]	
+toBytesLE	nint128/vendor/stew/endians2.html#toBytesLE,SomeEndianInt	endians2: toBytesLE(x: SomeEndianInt): array[sizeof(x), byte]	
+toBytesBE	nint128/vendor/stew/endians2.html#toBytesBE,SomeEndianInt	endians2: toBytesBE(x: SomeEndianInt): array[sizeof(x), byte]	
+fromBytes	nint128/vendor/stew/endians2.html#fromBytes,typedesc[SomeEndianInt],openArray[byte],Endianness	endians2: fromBytes(T: typedesc[SomeEndianInt]; x: openArray[byte];\n          endian: Endianness = system.cpuEndian): T:type	
+fromBytesBE	nint128/vendor/stew/endians2.html#fromBytesBE,typedesc[SomeEndianInt],openArray[byte]	endians2: fromBytesBE(T: typedesc[SomeEndianInt]; x: openArray[byte]): T:type	
+toBE	nint128/vendor/stew/endians2.html#toBE,T	endians2: toBE[T: SomeEndianInt](x: T): T	
+fromBE	nint128/vendor/stew/endians2.html#fromBE,T	endians2: fromBE[T: SomeEndianInt](x: T): T	
+fromBytesLE	nint128/vendor/stew/endians2.html#fromBytesLE,typedesc[SomeEndianInt],openArray[byte]	endians2: fromBytesLE(T: typedesc[SomeEndianInt]; x: openArray[byte]): T:type	
+toLE	nint128/vendor/stew/endians2.html#toLE,T	endians2: toLE[T: SomeEndianInt](x: T): T	
+fromLE	nint128/vendor/stew/endians2.html#fromLE,T	endians2: fromLE[T: SomeEndianInt](x: T): T	
