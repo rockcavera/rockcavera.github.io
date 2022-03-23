@@ -10,3 +10,5 @@ cidrToString	iputils/cidr.html#cidrToString	cidr: cidrToString(cidr: Cidr4 | Cid
 `$`	iputils/cidr.html#$	cidr: `$`(cidr: Cidr4 | Cidr6): string	
 cidrContainIpv4	iputils/cidr.html#cidrContainIpv4.i,Ipv4	cidr: cidrContainIpv4(ip: Ipv4): Cidr4	
 cidrContainIpv6	iputils/cidr.html#cidrContainIpv6.i,Ipv6	cidr: cidrContainIpv6(ip: Ipv6): Cidr6	
+contains	iputils/cidr.html#contains,Cidr4,Ipv4	cidr: contains(cidr: Cidr4; ip: Ipv4): bool	
+contains	iputils/cidr.html#contains,Cidr6,Ipv6	cidr: contains(cidr: Cidr6; ip: Ipv6): bool	

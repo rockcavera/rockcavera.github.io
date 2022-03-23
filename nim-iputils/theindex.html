@@ -34,7 +34,6 @@ function main() {
     }
   }
 
-  const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
   function switchTheme(e) {
       if (e.target.checked) {
           document.documentElement.setAttribute('data-theme', 'dark');
@@ -45,21 +44,29 @@ function main() {
       }
   }
 
-  toggleSwitch.addEventListener('change', switchTheme, false);
+  const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+  if (toggleSwitch !== null) {
+    toggleSwitch.addEventListener('change', switchTheme, false);
+  }
 
-  const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+  var currentTheme = localStorage.getItem('theme');
+  if (!currentTheme && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    currentTheme = 'dark';
+  }
   if (currentTheme) {
     document.documentElement.setAttribute('data-theme', currentTheme);
 
-    if (currentTheme === 'dark') {
+    if (currentTheme === 'dark' && toggleSwitch !== null) {
       toggleSwitch.checked = true;
     }
   }
 }
+
+window.addEventListener('DOMContentLoaded', main);
 </script>
 
 </head>
-<body onload="main()">
+<body>
 <div class="document" id="documentId">
   <div class="container">
     <h1 class="title">Index</h1>
@@ -105,6 +112,12 @@ function main() {
           data-doc-search-tag="ipv4: cmp(a, b: Ipv4): int" href="iputils/ipv4.html#cmp%2CIpv4%2CIpv4">ipv4: cmp(a, b: Ipv4): int</a></li>
           <li><a class="reference external"
           data-doc-search-tag="ipv6: cmp(a, b: Ipv6): int" href="iputils/ipv6.html#cmp%2CIpv6%2CIpv6">ipv6: cmp(a, b: Ipv6): int</a></li>
+          </ul></dd>
+<dt><a name="contains" href="#contains"><span>contains:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="cidr: contains(cidr: Cidr4; ip: Ipv4): bool" href="iputils/cidr.html#contains%2CCidr4%2CIpv4">cidr: contains(cidr: Cidr4; ip: Ipv4): bool</a></li>
+          <li><a class="reference external"
+          data-doc-search-tag="cidr: contains(cidr: Cidr6; ip: Ipv6): bool" href="iputils/cidr.html#contains%2CCidr6%2CIpv6">cidr: contains(cidr: Cidr6; ip: Ipv6): bool</a></li>
           </ul></dd>
 <dt><a name="Ipv4" href="#Ipv4"><span>Ipv4:</span></a></dt><dd><ul class="simple">
 <li><a class="reference external"
@@ -191,7 +204,7 @@ function main() {
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2020-10-28 17:05:36 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2022-03-23 00:18:50 UTC</small>
       </div>
     </div>
   </div>
