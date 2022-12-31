@@ -70,8 +70,12 @@
     <div id="tocRoot"></div>
     
     <p class="module-desc"><p>Minimal implementation to get System DNS Server (IPv4 only)</p>
-<p>This implementation uses the resolv library, which should work on linux and bsd. Reference: <a class="reference external" href="https://man7.org/linux/man-pages/man3/resolver.3.html">https://man7.org/linux/man-pages/man3/resolver.3.html</a></p>
-<p>Using this module implies passing &quot;-lresolv&quot; to the linkage process.</p>
+<p>This implementation uses the resolv library, which should work on Linux and BSD.</p>
+<p>References:</p>
+<ul class="simple"><li><a class="reference external" href="https://man7.org/linux/man-pages/man3/resolver.3.html">https://man7.org/linux/man-pages/man3/resolver.3.html</a></li>
+<li><a class="reference external" href="https://www.freebsd.org/cgi/man.cgi?query=resolver">https://www.freebsd.org/cgi/man.cgi?query=resolver</a></li>
+</ul>
+<p>Using this module implies passing <tt class="docutils literal"><span class="pre"><span class="Operator">-</span><span class="Identifier">lresolv</span></span></tt> or <tt class="docutils literal"><span class="pre"><span class="Operator">-</span><span class="Identifier">lc</span></span></tt> to the linkage process.</p>
 <p>To use the interface deprecated by the resolv library, compile with <tt class="docutils literal"><span class="pre"><span class="Operator">-</span><span class="Identifier">d</span><span class="Punctuation">:</span><span class="Identifier">useDeprecatedResolv</span></span></tt>.</p>
 </p>
     <div class="section" id="12">
@@ -83,8 +87,8 @@
   <dd>
     
     Returns the IPv4 used by the system for DNS resolution. Otherwise it returns an empty string <tt class="docutils literal"><span class="pre"><span class="StringLit">&quot;&quot;</span></span></tt>.
-    <a href="https://github.com/rockcavera/nim-ndns/tree/main/src/ndns/platforms/resolv.nim#L84" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/rockcavera/nim-ndns/edit/main/src/ndns/platforms/resolv.nim#L84" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/rockcavera/nim-ndns/tree/main/src/ndns/platforms/resolv.nim#L90" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/rockcavera/nim-ndns/edit/main/src/ndns/platforms/resolv.nim#L90" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -100,7 +104,7 @@
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2022-12-31 01:47:27 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2022-12-31 04:29:46 UTC</small>
       </div>
     </div>
   </div>
