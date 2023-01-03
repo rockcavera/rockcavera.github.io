@@ -5,9 +5,11 @@ ResponsePortNotEqualError	ndns.html#ResponsePortNotEqualError	ndns: ResponsePort
 ResponseIdNotEqualError	ndns.html#ResponseIdNotEqualError	ndns: ResponseIdNotEqualError	
 IsNotAnResponseError	ndns.html#IsNotAnResponseError	ndns: IsNotAnResponseError	
 OpCodeNotEqualError	ndns.html#OpCodeNotEqualError	ndns: OpCodeNotEqualError	
-defaultIpDns	ndns.html#defaultIpDns	ndns: defaultIpDns	
-initDnsClient	ndns.html#initDnsClient,string,Port	ndns: initDnsClient(ip: string = defaultIpDns; port: Port = Port(53)): DnsClient	
+ndnsDnsServerIp	ndns.html#ndnsDnsServerIp	ndns: ndnsDnsServerIp	
+initDnsClient	ndns.html#initDnsClient,string,Port	ndns: initDnsClient(ip: string = ndnsDnsServerIp; port: Port = Port(53)): DnsClient	
 initSystemDnsClient	ndns.html#initSystemDnsClient	ndns: initSystemDnsClient(): DnsClient	
+getIp	ndns.html#getIp,DnsClient	ndns: getIp(client: DnsClient): string	
+getPort	ndns.html#getPort,DnsClient	ndns: getPort(client: DnsClient): Port	
 dnsTcpQuery	ndns.html#dnsTcpQuery,DnsClient,Message,int	ndns: dnsTcpQuery(client: DnsClient; msg: Message; timeout: int = -1): Message	
 dnsQuery	ndns.html#dnsQuery,DnsClient,Message,int	ndns: dnsQuery(client: DnsClient; msg: Message; timeout: int = -1; retransmit = false): Message	
 dnsAsyncTcpQuery	ndns.html#dnsAsyncTcpQuery,DnsClient,Message,int	ndns: dnsAsyncTcpQuery(client: DnsClient; msg: Message; timeout: int = 500): owned(\n    Future[Message])	

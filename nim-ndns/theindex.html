@@ -46,10 +46,6 @@
     Future[seq[string]])" href="ndns.html#asyncResolveRDns%2CDnsClient%2Cstring%2Cint">ndns: asyncResolveRDns(client: DnsClient; ip: string; timeout: int = 500): owned(
     Future[seq[string]])</a></li>
           </ul></dd>
-<dt><a name="defaultIpDns" href="#defaultIpDns"><span>defaultIpDns:</span></a></dt><dd><ul class="simple">
-<li><a class="reference external"
-          data-doc-search-tag="ndns: defaultIpDns" href="ndns.html#defaultIpDns">ndns: defaultIpDns</a></li>
-          </ul></dd>
 <dt><a name="dnsAsyncQuery" href="#dnsAsyncQuery"><span>dnsAsyncQuery:</span></a></dt><dd><ul class="simple">
 <li><a class="reference external"
           data-doc-search-tag="ndns: dnsAsyncQuery(client: DnsClient; msg: Message; timeout: int = 500;
@@ -74,6 +70,14 @@
 <li><a class="reference external"
           data-doc-search-tag="ndns: dnsTcpQuery(client: DnsClient; msg: Message; timeout: int = -1): Message" href="ndns.html#dnsTcpQuery%2CDnsClient%2CMessage%2Cint">ndns: dnsTcpQuery(client: DnsClient; msg: Message; timeout: int = -1): Message</a></li>
           </ul></dd>
+<dt><a name="getIp" href="#getIp"><span>getIp:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="ndns: getIp(client: DnsClient): string" href="ndns.html#getIp%2CDnsClient">ndns: getIp(client: DnsClient): string</a></li>
+          </ul></dd>
+<dt><a name="getPort" href="#getPort"><span>getPort:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="ndns: getPort(client: DnsClient): Port" href="ndns.html#getPort%2CDnsClient">ndns: getPort(client: DnsClient): Port</a></li>
+          </ul></dd>
 <dt><a name="getSystemDnsServer" href="#getSystemDnsServer"><span>getSystemDnsServer:</span></a></dt><dd><ul class="simple">
 <li><a class="reference external"
           data-doc-search-tag="resolv: getSystemDnsServer(): string" href="ndns/platforms/resolv.html#getSystemDnsServer">resolv: getSystemDnsServer(): string</a></li>
@@ -82,7 +86,7 @@
           </ul></dd>
 <dt><a name="initDnsClient" href="#initDnsClient"><span>initDnsClient:</span></a></dt><dd><ul class="simple">
 <li><a class="reference external"
-          data-doc-search-tag="ndns: initDnsClient(ip: string = defaultIpDns; port: Port = Port(53)): DnsClient" href="ndns.html#initDnsClient%2Cstring%2CPort">ndns: initDnsClient(ip: string = defaultIpDns; port: Port = Port(53)): DnsClient</a></li>
+          data-doc-search-tag="ndns: initDnsClient(ip: string = ndnsDnsServerIp; port: Port = Port(53)): DnsClient" href="ndns.html#initDnsClient%2Cstring%2CPort">ndns: initDnsClient(ip: string = ndnsDnsServerIp; port: Port = Port(53)): DnsClient</a></li>
           </ul></dd>
 <dt><a name="initSystemDnsClient" href="#initSystemDnsClient"><span>initSystemDnsClient:</span></a></dt><dd><ul class="simple">
 <li><a class="reference external"
@@ -91,6 +95,10 @@
 <dt><a name="IsNotAnResponseError" href="#IsNotAnResponseError"><span>IsNotAnResponseError:</span></a></dt><dd><ul class="simple">
 <li><a class="reference external"
           data-doc-search-tag="ndns: IsNotAnResponseError" href="ndns.html#IsNotAnResponseError">ndns: IsNotAnResponseError</a></li>
+          </ul></dd>
+<dt><a name="ndnsDnsServerIp" href="#ndnsDnsServerIp"><span>ndnsDnsServerIp:</span></a></dt><dd><ul class="simple">
+<li><a class="reference external"
+          data-doc-search-tag="ndns: ndnsDnsServerIp" href="ndns.html#ndnsDnsServerIp">ndns: ndnsDnsServerIp</a></li>
           </ul></dd>
 <dt><a name="OpCodeNotEqualError" href="#OpCodeNotEqualError"><span>OpCodeNotEqualError:</span></a></dt><dd><ul class="simple">
 <li><a class="reference external"
@@ -146,7 +154,7 @@
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2023-01-02 20:18:34 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2023-01-03 02:07:50 UTC</small>
       </div>
     </div>
   </div>
