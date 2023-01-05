@@ -5,6 +5,7 @@ ResponsePortNotEqualError	ndns.html#ResponsePortNotEqualError	ndns: ResponsePort
 ResponseIdNotEqualError	ndns.html#ResponseIdNotEqualError	ndns: ResponseIdNotEqualError	
 IsNotAnResponseError	ndns.html#IsNotAnResponseError	ndns: IsNotAnResponseError	
 OpCodeNotEqualError	ndns.html#OpCodeNotEqualError	ndns: OpCodeNotEqualError	
+defaultIpDns	ndns.html#defaultIpDns	ndns: defaultIpDns	
 ndnsDnsServerIp	ndns.html#ndnsDnsServerIp	ndns: ndnsDnsServerIp	
 initDnsClient	ndns.html#initDnsClient,string,Port	ndns: initDnsClient(ip: string = ndnsDnsServerIp; port: Port = Port(53)): DnsClient	
 initSystemDnsClient	ndns.html#initSystemDnsClient	ndns: initSystemDnsClient(): DnsClient	
