@@ -1,2 +1,4 @@
-`and`	nint128/bitwise/bitand.html#and,UInt128,UInt128	bitand: `and`(x, y: UInt128): UInt128	
-`and`	nint128/bitwise/bitand.html#and,Int128,Int128	bitand: `and`(x, y: Int128): Int128	
+nimTitle	bitand	nint128/bitwise/bitand.html	module src/nint128/bitwise/bitand		0
+nim	`and`	nint128/bitwise/bitand.html#and,UInt128,UInt128	proc `and`(x, y: UInt128): UInt128		29
+nim	`and`	nint128/bitwise/bitand.html#and,Int128,Int128	proc `and`(x, y: Int128): Int128		38
+nimgrp	and	nint128/bitwise/bitand.html#and-procs-all	proc		29

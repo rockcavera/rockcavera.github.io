@@ -1,7 +1,13 @@
-mul64by64To128	nint128/arithmetic/multiplication.html#mul64by64To128,uint64,uint64	multiplication: mul64by64To128(a, b: uint64): UInt128	
-mul64by64To128	nint128/arithmetic/multiplication.html#mul64by64To128,uint64,uint64,uint64	multiplication: mul64by64To128(a, b: uint64; hi: var uint64): uint64	
-`*`	nint128/arithmetic/multiplication.html#*,UInt128,UInt128	multiplication: `*`(a, b: UInt128): UInt128	
-`*`	nint128/arithmetic/multiplication.html#*,Int128,Int128	multiplication: `*`(a, b: Int128): Int128	
-`*=`	nint128/arithmetic/multiplication.html#*=,T,T	multiplication: `*=`[T: SomeInt128](x: var T; y: T)	
-`*`	nint128/arithmetic/multiplication.html#*,UInt128,uint64	multiplication: `*`(a: UInt128; b: uint64): UInt128	
-`*`	nint128/arithmetic/multiplication.html#*.t,uint64,UInt128	multiplication: `*`(a: uint64; b: UInt128): UInt128	
+nimTitle	multiplication	nint128/arithmetic/multiplication.html	module src/nint128/arithmetic/multiplication		0
+nim	mul64by64To128	nint128/arithmetic/multiplication.html#mul64by64To128,uint64,uint64	proc mul64by64To128(a, b: uint64): UInt128		44
+nim	mul64by64To128	nint128/arithmetic/multiplication.html#mul64by64To128,uint64,uint64,uint64	proc mul64by64To128(a, b: uint64; hi: var uint64): uint64		53
+nim	`*`	nint128/arithmetic/multiplication.html#*,UInt128,UInt128	proc `*`(a, b: UInt128): UInt128		109
+nim	`*`	nint128/arithmetic/multiplication.html#*,Int128,Int128	proc `*`(a, b: Int128): Int128		118
+nim	`*=`	nint128/arithmetic/multiplication.html#*=,T,T	proc `*=`[T: SomeInt128](x: var T; y: T)		127
+nim	`*`	nint128/arithmetic/multiplication.html#*,UInt128,uint64	proc `*`(a: UInt128; b: uint64): UInt128		134
+nim	`*`	nint128/arithmetic/multiplication.html#*.t,uint64,UInt128	template `*`(a: uint64; b: UInt128): UInt128		139
+nim	mul128by128ToTwo128	nint128/arithmetic/multiplication.html#mul128by128ToTwo128,UInt128,UInt128,UInt128	proc mul128by128ToTwo128(a, b: UInt128; hi: var UInt128): UInt128		142
+nim	mul128by128ToTwo128	nint128/arithmetic/multiplication.html#mul128by128ToTwo128,UInt128,UInt128,UInt128,UInt128	proc mul128by128ToTwo128(a, b: UInt128; hi, lo: var UInt128): bool		156
+nimgrp	mul64by64to128	nint128/arithmetic/multiplication.html#mul64by64To128-procs-all	proc		44
+nimgrp	*	nint128/arithmetic/multiplication.html#*-procs-all	proc		109
+nimgrp	mul128by128totwo128	nint128/arithmetic/multiplication.html#mul128by128ToTwo128-procs-all	proc		142

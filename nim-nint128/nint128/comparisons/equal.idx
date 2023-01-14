@@ -1,2 +1,4 @@
-`==`	nint128/comparisons/equal.html#==,UInt128,UInt128	equal: `==`(x, y: UInt128): bool	
-`==`	nint128/comparisons/equal.html#==,Int128,Int128	equal: `==`(x, y: Int128): bool	
+nimTitle	equal	nint128/comparisons/equal.html	module src/nint128/comparisons/equal		0
+nim	`==`	nint128/comparisons/equal.html#==,UInt128,UInt128	proc `==`(x, y: UInt128): bool		34
+nim	`==`	nint128/comparisons/equal.html#==,Int128,Int128	proc `==`(x, y: Int128): bool		43
+nimgrp	==	nint128/comparisons/equal.html#==-procs-all	proc		34

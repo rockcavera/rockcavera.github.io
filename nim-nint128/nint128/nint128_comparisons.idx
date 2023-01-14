@@ -1,1 +1,2 @@
-isNegative	nint128/nint128_comparisons.html#isNegative,Int128	nint128_comparisons: isNegative(x: Int128): bool	
+nimTitle	nint128_comparisons	nint128/nint128_comparisons.html	module src/nint128/nint128_comparisons		0
+nim	isNegative	nint128/nint128_comparisons.html#isNegative,Int128	proc isNegative(x: Int128): bool		7

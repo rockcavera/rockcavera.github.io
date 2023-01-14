@@ -1,4 +1,7 @@
-i128	nint128.html#i128,string	nint128: i128(x: string): Int128	
-i128	nint128.html#i128,T	nint128: i128[T: SomeInteger](x: T): Int128	
-u128	nint128.html#u128,string	nint128: u128(x: string): UInt128	
-u128	nint128.html#u128,SomeInteger	nint128: u128(x: SomeInteger): UInt128	
+nimTitle	nint128	nint128.html	module src/nint128		0
+nim	i128	nint128.html#i128,string	proc i128(x: string): Int128		7
+nim	i128	nint128.html#i128,T	proc i128[T: SomeInteger](x: T): Int128		9
+nim	u128	nint128.html#u128,string	proc u128(x: string): UInt128		18
+nim	u128	nint128.html#u128,SomeInteger	proc u128(x: SomeInteger): UInt128		20
+nimgrp	i128	nint128.html#i128-procs-all	proc		7
+nimgrp	u128	nint128.html#u128-procs-all	proc		18

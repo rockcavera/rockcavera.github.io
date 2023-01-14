@@ -1,2 +1,4 @@
-`or`	nint128/bitwise/bitor.html#or,UInt128,UInt128	bitor: `or`(x, y: UInt128): UInt128	
-`or`	nint128/bitwise/bitor.html#or,Int128,Int128	bitor: `or`(x, y: Int128): Int128	
+nimTitle	bitor	nint128/bitwise/bitor.html	module src/nint128/bitwise/bitor		0
+nim	`or`	nint128/bitwise/bitor.html#or,UInt128,UInt128	proc `or`(x, y: UInt128): UInt128		29
+nim	`or`	nint128/bitwise/bitor.html#or,Int128,Int128	proc `or`(x, y: Int128): Int128		38
+nimgrp	or	nint128/bitwise/bitor.html#or-procs-all	proc		29

@@ -1,2 +1,4 @@
-`-`	nint128/arithmetic/minus.html#-,UInt128	minus: `-`(x: UInt128): UInt128	
-`-`	nint128/arithmetic/minus.html#-,Int128	minus: `-`(x: Int128): Int128	
+nimTitle	minus	nint128/arithmetic/minus.html	module src/nint128/arithmetic/minus		0
+nim	`-`	nint128/arithmetic/minus.html#-,UInt128	proc `-`(x: UInt128): UInt128		29
+nim	`-`	nint128/arithmetic/minus.html#-,Int128	proc `-`(x: Int128): Int128		39
+nimgrp	-	nint128/arithmetic/minus.html#--procs-all	proc		29

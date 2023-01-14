@@ -1,2 +1,5 @@
-`&gt;`	nint128/comparisons/greaterthan.html#>,UInt128,UInt128	greaterthan: `&gt;`(x, y: UInt128): bool	
-`&gt;`	nint128/comparisons/greaterthan.html#>,Int128,Int128	greaterthan: `&gt;`(x, y: Int128): bool	
+nimTitle	greaterthan	nint128/comparisons/greaterthan.html	module src/nint128/comparisons/greaterthan		0
+nim	gt	nint128/comparisons/greaterthan.html#gt,UInt128,UInt128	proc gt(x, y: UInt128): bool		22
+nim	gt	nint128/comparisons/greaterthan.html#gt,Int128,Int128	proc gt(x, y: Int128): bool		32
+nim	GreaterThan	nint128/comparisons/greaterthan.html#GreaterThan.t,SomeInt128,SomeInt128	template GreaterThan(x, y: SomeInt128): bool		42
+nimgrp	gt	nint128/comparisons/greaterthan.html#gt-procs-all	proc		22

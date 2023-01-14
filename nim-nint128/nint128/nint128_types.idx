@@ -1,10 +1,13 @@
-Int128	nint128/nint128_types.html#Int128	nint128_types: Int128	
-UInt128	nint128/nint128_types.html#UInt128	nint128_types: UInt128	
-SomeInt128	nint128/nint128_types.html#SomeInt128	nint128_types: SomeInt128	
-low	nint128/nint128_types.html#low,typedesc[Int128]	nint128_types: low(x: typedesc[Int128]): Int128	
-high	nint128/nint128_types.html#high,typedesc[Int128]	nint128_types: high(x: typedesc[Int128]): Int128	
-low	nint128/nint128_types.html#low,typedesc[UInt128]	nint128_types: low(x: typedesc[UInt128]): UInt128	
-high	nint128/nint128_types.html#high,typedesc[UInt128]	nint128_types: high(x: typedesc[UInt128]): UInt128	
-zero	nint128/nint128_types.html#zero,typedesc[T]	nint128_types: zero[T: SomeInt128](x: typedesc[T]): T	
-one	nint128/nint128_types.html#one,typedesc[T]	nint128_types: one[T: SomeInt128](x: typedesc[T]): T	
-ten	nint128/nint128_types.html#ten,typedesc[T]	nint128_types: ten[T: SomeInt128](x: typedesc[T]): T	
+nimTitle	nint128_types	nint128/nint128_types.html	module src/nint128/nint128_types		0
+nim	Int128	nint128/nint128_types.html#Int128	object Int128		2
+nim	UInt128	nint128/nint128_types.html#UInt128	object UInt128		10
+nim	SomeInt128	nint128/nint128_types.html#SomeInt128	type SomeInt128		16
+nim	low	nint128/nint128_types.html#low,typedesc[Int128]	proc low(x: typedesc[Int128]): Int128		18
+nim	high	nint128/nint128_types.html#high,typedesc[Int128]	proc high(x: typedesc[Int128]): Int128		22
+nim	low	nint128/nint128_types.html#low,typedesc[UInt128]	proc low(x: typedesc[UInt128]): UInt128		27
+nim	high	nint128/nint128_types.html#high,typedesc[UInt128]	proc high(x: typedesc[UInt128]): UInt128		30
+nim	zero	nint128/nint128_types.html#zero,typedesc[T]	proc zero[T: SomeInt128](x: typedesc[T]): T		35
+nim	one	nint128/nint128_types.html#one,typedesc[T]	proc one[T: SomeInt128](x: typedesc[T]): T		37
+nim	ten	nint128/nint128_types.html#ten,typedesc[T]	proc ten[T: SomeInt128](x: typedesc[T]): T		40
+nimgrp	high	nint128/nint128_types.html#high-procs-all	proc		22
+nimgrp	low	nint128/nint128_types.html#low-procs-all	proc		18

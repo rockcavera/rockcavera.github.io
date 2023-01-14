@@ -1,12 +1,13 @@
-SomeEndianInt	nint128/vendor/stew/endians2.html#SomeEndianInt	endians2: SomeEndianInt	
-swapBytes	nint128/vendor/stew/endians2.html#swapBytes,T	endians2: swapBytes[T: SomeEndianInt](x: T): T	
-toBytes	nint128/vendor/stew/endians2.html#toBytes,SomeEndianInt,Endianness	endians2: toBytes(x: SomeEndianInt; endian: Endianness = system.cpuEndian): array[\n    sizeof(x), byte]	
-toBytesLE	nint128/vendor/stew/endians2.html#toBytesLE,SomeEndianInt	endians2: toBytesLE(x: SomeEndianInt): array[sizeof(x), byte]	
-toBytesBE	nint128/vendor/stew/endians2.html#toBytesBE,SomeEndianInt	endians2: toBytesBE(x: SomeEndianInt): array[sizeof(x), byte]	
-fromBytes	nint128/vendor/stew/endians2.html#fromBytes,typedesc[SomeEndianInt],openArray[byte],Endianness	endians2: fromBytes(T: typedesc[SomeEndianInt]; x: openArray[byte];\n          endian: Endianness = system.cpuEndian): T:type	
-fromBytesBE	nint128/vendor/stew/endians2.html#fromBytesBE,typedesc[SomeEndianInt],openArray[byte]	endians2: fromBytesBE(T: typedesc[SomeEndianInt]; x: openArray[byte]): T:type	
-toBE	nint128/vendor/stew/endians2.html#toBE,T	endians2: toBE[T: SomeEndianInt](x: T): T	
-fromBE	nint128/vendor/stew/endians2.html#fromBE,T	endians2: fromBE[T: SomeEndianInt](x: T): T	
-fromBytesLE	nint128/vendor/stew/endians2.html#fromBytesLE,typedesc[SomeEndianInt],openArray[byte]	endians2: fromBytesLE(T: typedesc[SomeEndianInt]; x: openArray[byte]): T:type	
-toLE	nint128/vendor/stew/endians2.html#toLE,T	endians2: toLE[T: SomeEndianInt](x: T): T	
-fromLE	nint128/vendor/stew/endians2.html#fromLE,T	endians2: fromLE[T: SomeEndianInt](x: T): T	
+nimTitle	endians2	nint128/vendor/stew/endians2.html	module src/nint128/vendor/stew/endians2		0
+nim	SomeEndianInt	nint128/vendor/stew/endians2.html#SomeEndianInt	type SomeEndianInt		25
+nim	swapBytes	nint128/vendor/stew/endians2.html#swapBytes,T	proc swapBytes[T: SomeEndianInt](x: T): T		80
+nim	toBytes	nint128/vendor/stew/endians2.html#toBytes,SomeEndianInt,Endianness	proc toBytes(x: SomeEndianInt; endian: Endianness = system.cpuEndian): array[\n    sizeof(x), byte]		94
+nim	toBytesLE	nint128/vendor/stew/endians2.html#toBytesLE,SomeEndianInt	proc toBytesLE(x: SomeEndianInt): array[sizeof(x), byte]		108
+nim	toBytesBE	nint128/vendor/stew/endians2.html#toBytesBE,SomeEndianInt	proc toBytesBE(x: SomeEndianInt): array[sizeof(x), byte]		113
+nim	fromBytes	nint128/vendor/stew/endians2.html#fromBytes,typedesc[SomeEndianInt],openArray[byte],Endianness	proc fromBytes(T: typedesc[SomeEndianInt]; x: openArray[byte];\n          endian: Endianness = system.cpuEndian): T:type		118
+nim	fromBytesBE	nint128/vendor/stew/endians2.html#fromBytesBE,typedesc[SomeEndianInt],openArray[byte]	proc fromBytesBE(T: typedesc[SomeEndianInt]; x: openArray[byte]): T:type		151
+nim	toBE	nint128/vendor/stew/endians2.html#toBE,T	proc toBE[T: SomeEndianInt](x: T): T		159
+nim	fromBE	nint128/vendor/stew/endians2.html#fromBE,T	proc fromBE[T: SomeEndianInt](x: T): T		165
+nim	fromBytesLE	nint128/vendor/stew/endians2.html#fromBytesLE,typedesc[SomeEndianInt],openArray[byte]	proc fromBytesLE(T: typedesc[SomeEndianInt]; x: openArray[byte]): T:type		170
+nim	toLE	nint128/vendor/stew/endians2.html#toLE,T	proc toLE[T: SomeEndianInt](x: T): T		178
+nim	fromLE	nint128/vendor/stew/endians2.html#fromLE,T	proc fromLE[T: SomeEndianInt](x: T): T		184

@@ -1,4 +1,7 @@
-`shl`	nint128/bitwise/shift.html#shl,UInt128,T	shift: `shl`[T: SomeInteger](x: UInt128; y: T): UInt128	
-`shl`	nint128/bitwise/shift.html#shl,Int128,T	shift: `shl`[T: SomeInteger](x: Int128; y: T): Int128	
-`shr`	nint128/bitwise/shift.html#shr,UInt128,T	shift: `shr`[T: SomeInteger](x: UInt128; y: T): UInt128	
-`shr`	nint128/bitwise/shift.html#shr,Int128,T	shift: `shr`[T: SomeInteger](x: Int128; y: T): Int128	
+nimTitle	shift	nint128/bitwise/shift.html	module src/nint128/bitwise/shift		0
+nim	`shl`	nint128/bitwise/shift.html#shl,UInt128,T	proc `shl`[T: SomeInteger](x: UInt128; y: T): UInt128		113
+nim	`shl`	nint128/bitwise/shift.html#shl,Int128,T	proc `shl`[T: SomeInteger](x: Int128; y: T): Int128		122
+nim	`shr`	nint128/bitwise/shift.html#shr,UInt128,T	proc `shr`[T: SomeInteger](x: UInt128; y: T): UInt128		131
+nim	`shr`	nint128/bitwise/shift.html#shr,Int128,T	proc `shr`[T: SomeInteger](x: Int128; y: T): Int128		140
+nimgrp	shl	nint128/bitwise/shift.html#shl-procs-all	proc		113
+nimgrp	shr	nint128/bitwise/shift.html#shr-procs-all	proc		131

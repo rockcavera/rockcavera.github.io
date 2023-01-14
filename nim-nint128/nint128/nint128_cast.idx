@@ -1,1 +1,2 @@
-nint128Cast	nint128/nint128_cast.html#nint128Cast.t	nint128_cast: nint128Cast[T](x: Int128 | UInt128): T	
+nimTitle	nint128_cast	nint128/nint128_cast.html	module src/nint128/nint128_cast		0
+nim	nint128Cast	nint128/nint128_cast.html#nint128Cast.t	template nint128Cast[T](x: Int128 | UInt128): T		10

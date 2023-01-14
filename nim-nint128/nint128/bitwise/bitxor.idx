@@ -1,2 +1,4 @@
-`xor`	nint128/bitwise/bitxor.html#xor,UInt128,UInt128	bitxor: `xor`(x, y: UInt128): UInt128	
-`xor`	nint128/bitwise/bitxor.html#xor,Int128,Int128	bitxor: `xor`(x, y: Int128): Int128	
+nimTitle	bitxor	nint128/bitwise/bitxor.html	module src/nint128/bitwise/bitxor		0
+nim	`xor`	nint128/bitwise/bitxor.html#xor,UInt128,UInt128	proc `xor`(x, y: UInt128): UInt128		29
+nim	`xor`	nint128/bitwise/bitxor.html#xor,Int128,Int128	proc `xor`(x, y: Int128): Int128		38
+nimgrp	xor	nint128/bitwise/bitxor.html#xor-procs-all	proc		29

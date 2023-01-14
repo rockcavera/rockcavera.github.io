@@ -1,7 +1,13 @@
-divmod	nint128/arithmetic/division.html#divmod,UInt128,UInt128	division: divmod(x, y: UInt128): tuple[q, r: UInt128]	
-divmod	nint128/arithmetic/division.html#divmod,Int128,Int128	division: divmod(x, y: Int128): tuple[q, r: Int128]	
-div128by64to64	nint128/arithmetic/division.html#div128by64to64,UInt128,uint64,uint64	division: div128by64to64(x: UInt128; y: uint64; remainder: var uint64): uint64	
-`div`	nint128/arithmetic/division.html#div,UInt128,UInt128	division: `div`(x, y: UInt128): UInt128	
-`div`	nint128/arithmetic/division.html#div,Int128,Int128	division: `div`(x, y: Int128): Int128	
-`mod`	nint128/arithmetic/division.html#mod,UInt128,UInt128	division: `mod`(x, y: UInt128): UInt128	
-`mod`	nint128/arithmetic/division.html#mod,Int128,Int128	division: `mod`(x, y: Int128): Int128	
+nimTitle	division	nint128/arithmetic/division.html	module src/nint128/arithmetic/division		0
+nim	divmod	nint128/arithmetic/division.html#divmod,UInt128,UInt128	proc divmod(x, y: UInt128): tuple[q, r: UInt128]		151
+nim	divmod	nint128/arithmetic/division.html#divmod,Int128,Int128	proc divmod(x, y: Int128): tuple[q, r: Int128]		202
+nim	div128by64to64	nint128/arithmetic/division.html#div128by64to64,UInt128,uint64,uint64	proc div128by64to64(x: UInt128; y: uint64; remainder: var uint64): uint64		211
+nim	`div`	nint128/arithmetic/division.html#div,UInt128,UInt128	proc `div`(x, y: UInt128): UInt128		238
+nim	`div`	nint128/arithmetic/division.html#div,Int128,Int128	proc `div`(x, y: Int128): Int128		260
+nim	`mod`	nint128/arithmetic/division.html#mod,UInt128,UInt128	proc `mod`(x, y: UInt128): UInt128		280
+nim	`mod`	nint128/arithmetic/division.html#mod,Int128,Int128	proc `mod`(x, y: Int128): Int128		300
+nim	`div`	nint128/arithmetic/division.html#div,UInt128,static[UInt128]	proc `div`(x: UInt128; y: static[UInt128]): UInt128		385
+nim	`mod`	nint128/arithmetic/division.html#mod,UInt128,static[UInt128]	proc `mod`(x: UInt128; y: static[UInt128]): UInt128		401
+nimgrp	mod	nint128/arithmetic/division.html#mod-procs-all	proc		280
+nimgrp	div	nint128/arithmetic/division.html#div-procs-all	proc		238
+nimgrp	divmod	nint128/arithmetic/division.html#divmod-procs-all	proc		151

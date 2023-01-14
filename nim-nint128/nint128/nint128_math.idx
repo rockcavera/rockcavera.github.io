@@ -1,1 +1,3 @@
-abs	nint128/nint128_math.html#abs,Int128	nint128_math: abs(x: Int128): Int128	
+nimTitle	nint128_math	nint128/nint128_math.html	module src/nint128/nint128_math		0
+nim	abs	nint128/nint128_math.html#abs,Int128	proc abs(x: Int128): Int128		3
+nim	floorSqrt	nint128/nint128_math.html#floorSqrt,Int128	proc floorSqrt(x: Int128): Int128		13

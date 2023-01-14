@@ -1,2 +1,5 @@
-`!=`	nint128/comparisons/notequal.html#!=,UInt128,UInt128	notequal: `!=`(x, y: UInt128): bool	
-`!=`	nint128/comparisons/notequal.html#!=,Int128,Int128	notequal: `!=`(x, y: Int128): bool	
+nimTitle	notequal	nint128/comparisons/notequal.html	module src/nint128/comparisons/notequal		0
+nim	ne	nint128/comparisons/notequal.html#ne,UInt128,UInt128	proc ne(x, y: UInt128): bool		37
+nim	ne	nint128/comparisons/notequal.html#ne,Int128,Int128	proc ne(x, y: Int128): bool		47
+nim	notEqual	nint128/comparisons/notequal.html#notEqual.t,SomeInt128,SomeInt128	template notEqual(x, y: SomeInt128): bool		57
+nimgrp	ne	nint128/comparisons/notequal.html#ne-procs-all	proc		37

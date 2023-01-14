@@ -1,7 +1,10 @@
-`+`	nint128/arithmetic/addition.html#+,UInt128,UInt128	addition: `+`(x, y: UInt128): UInt128	
-`+`	nint128/arithmetic/addition.html#+,Int128,Int128	addition: `+`(x, y: Int128): Int128	
-`+=`	nint128/arithmetic/addition.html#+=,T,T	addition: `+=`[T: SomeInt128](x: var T; y: T)	
-`+`	nint128/arithmetic/addition.html#+,UInt128,uint64	addition: `+`(x: UInt128; y: uint64): UInt128	
-`+`	nint128/arithmetic/addition.html#+,Int128,uint64	addition: `+`(x: Int128; y: uint64): Int128	
-`+=`	nint128/arithmetic/addition.html#+=,T,uint64	addition: `+=`[T: SomeInt128](x: var T; y: uint64)	
-`+`	nint128/arithmetic/addition.html#+.t,uint64,T	addition: `+`[T: SomeInt128](x: uint64; y: T): T	
+nimTitle	addition	nint128/arithmetic/addition.html	module src/nint128/arithmetic/addition		0
+nim	`+`	nint128/arithmetic/addition.html#+,UInt128,UInt128	proc `+`(x, y: UInt128): UInt128		40
+nim	`+`	nint128/arithmetic/addition.html#+,Int128,Int128	proc `+`(x, y: Int128): Int128		49
+nim	`+=`	nint128/arithmetic/addition.html#+=,T,T	proc `+=`[T: SomeInt128](x: var T; y: T)		58
+nim	`+`	nint128/arithmetic/addition.html#+,UInt128,uint64	proc `+`(x: UInt128; y: uint64): UInt128		65
+nim	`+`	nint128/arithmetic/addition.html#+,Int128,uint64	proc `+`(x: Int128; y: uint64): Int128		69
+nim	`+=`	nint128/arithmetic/addition.html#+=,T,uint64	proc `+=`[T: SomeInt128](x: var T; y: uint64)		73
+nim	`+`	nint128/arithmetic/addition.html#+.t,uint64,T	template `+`[T: SomeInt128](x: uint64; y: T): T		76
+nimgrp	+=	nint128/arithmetic/addition.html#+=-procs-all	proc		58
+nimgrp	+	nint128/arithmetic/addition.html#+-procs-all	proc		40

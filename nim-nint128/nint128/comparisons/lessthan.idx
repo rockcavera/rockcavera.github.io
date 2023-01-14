@@ -1,2 +1,4 @@
-`&lt;`	nint128/comparisons/lessthan.html#<,UInt128,UInt128	lessthan: `&lt;`(x, y: UInt128): bool	
-`&lt;`	nint128/comparisons/lessthan.html#<,Int128,Int128	lessthan: `&lt;`(x, y: Int128): bool	
+nimTitle	lessthan	nint128/comparisons/lessthan.html	module src/nint128/comparisons/lessthan		0
+nim	`<`	nint128/comparisons/lessthan.html#<,UInt128,UInt128	proc `<`(x, y: UInt128): bool		20
+nim	`<`	nint128/comparisons/lessthan.html#<,Int128,Int128	proc `<`(x, y: Int128): bool		29
+nimgrp	<	nint128/comparisons/lessthan.html#<-procs-all	proc		20

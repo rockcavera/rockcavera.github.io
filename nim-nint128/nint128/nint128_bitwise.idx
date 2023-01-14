@@ -1,2 +1,3 @@
-`shl`	nint128/nint128_bitwise.html#shl.t,T,SomeInt128	nint128_bitwise: `shl`[T: SomeInt128](x: T; y: SomeInt128): T	
-`shr`	nint128/nint128_bitwise.html#shr.t,T,SomeInt128	nint128_bitwise: `shr`[T: SomeInt128](x: T; y: SomeInt128): T	
+nimTitle	nint128_bitwise	nint128/nint128_bitwise.html	module src/nint128/nint128_bitwise		0
+nim	`shl`	nint128/nint128_bitwise.html#shl.t,T,SomeInt128	template `shl`[T: SomeInt128](x: T; y: SomeInt128): T		7
+nim	`shr`	nint128/nint128_bitwise.html#shr.t,T,SomeInt128	template `shr`[T: SomeInt128](x: T; y: SomeInt128): T		10

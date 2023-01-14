@@ -1,10 +1,14 @@
-parseInt128	nint128/nint128_io.html#parseInt128,string	nint128_io: parseInt128(x: string): Int128	
-parseUInt128	nint128/nint128_io.html#parseUInt128,string	nint128_io: parseUInt128(x: string): UInt128	
-toBin	nint128/nint128_io.html#toBin,UInt128,range[]	nint128_io: toBin(x: UInt128; len: range[1 .. 128]): string	
-toBin	nint128/nint128_io.html#toBin,UInt128	nint128_io: toBin(x: UInt128): string	
-toOct	nint128/nint128_io.html#toOct,UInt128,range[]	nint128_io: toOct(x: UInt128; len: range[1 .. 43]): string	
-toOct	nint128/nint128_io.html#toOct,UInt128	nint128_io: toOct(x: UInt128): string	
-toHex	nint128/nint128_io.html#toHex,UInt128,range[]	nint128_io: toHex(x: UInt128; len: range[1 .. 32]): string	
-toHex	nint128/nint128_io.html#toHex,UInt128	nint128_io: toHex(x: UInt128): string	
-toString	nint128/nint128_io.html#toString,T	nint128_io: toString[T: SomeInt128](x: T): string	
-`$`	nint128/nint128_io.html#$,SomeInt128	nint128_io: `$`(x: SomeInt128): string	
+nimTitle	nint128_io	nint128/nint128_io.html	module src/nint128/nint128_io		0
+nim	parseInt128	nint128/nint128_io.html#parseInt128,string	proc parseInt128(x: string): Int128		101
+nim	parseUInt128	nint128/nint128_io.html#parseUInt128,string	proc parseUInt128(x: string): UInt128		104
+nim	toBin	nint128/nint128_io.html#toBin,UInt128,range[]	proc toBin(x: UInt128; len: range[1 .. 128]): string		121
+nim	toBin	nint128/nint128_io.html#toBin,UInt128	proc toBin(x: UInt128): string		124
+nim	toOct	nint128/nint128_io.html#toOct,UInt128,range[]	proc toOct(x: UInt128; len: range[1 .. 43]): string		138
+nim	toOct	nint128/nint128_io.html#toOct,UInt128	proc toOct(x: UInt128): string		141
+nim	toHex	nint128/nint128_io.html#toHex,UInt128,range[]	proc toHex(x: UInt128; len: range[1 .. 32]): string		155
+nim	toHex	nint128/nint128_io.html#toHex,UInt128	proc toHex(x: UInt128): string		158
+nim	toString	nint128/nint128_io.html#toString,T	proc toString[T: SomeInt128](x: T): string		161
+nim	`$`	nint128/nint128_io.html#$,SomeInt128	proc `$`(x: SomeInt128): string		183
+nimgrp	tohex	nint128/nint128_io.html#toHex-procs-all	proc		155
+nimgrp	tobin	nint128/nint128_io.html#toBin-procs-all	proc		121
+nimgrp	tooct	nint128/nint128_io.html#toOct-procs-all	proc		138

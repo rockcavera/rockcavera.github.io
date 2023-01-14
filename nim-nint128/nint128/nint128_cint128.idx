@@ -1,5 +1,6 @@
-CInt128	nint128/nint128_cint128.html#CInt128	nint128_cint128: CInt128	
-CUInt128	nint128/nint128_cint128.html#CUInt128	nint128_cint128: CUInt128	
-shouldUseCInt128	nint128/nint128_cint128.html#shouldUseCInt128,string	nint128_cint128: shouldUseCInt128(cproc: string): bool	
-Usage	nint128/nint128_cint128.html#usage	 Usage	
-Important notes	nint128/nint128_cint128.html#important-notes	 Important notes	
+nimTitle	nint128_cint128	nint128/nint128_cint128.html	module src/nint128/nint128_cint128		0
+nim	CInt128	nint128/nint128_cint128.html#CInt128	object CInt128		115
+nim	CUInt128	nint128/nint128_cint128.html#CUInt128	object CUInt128		118
+nim	shouldUseCInt128	nint128/nint128_cint128.html#shouldUseCInt128,string	proc shouldUseCInt128(cproc: string): bool		121
+heading	Usage	nint128/nint128_cint128.html#usage	 Usage		0
+heading	Important notes	nint128/nint128_cint128.html#important-notes	 Important notes		0
