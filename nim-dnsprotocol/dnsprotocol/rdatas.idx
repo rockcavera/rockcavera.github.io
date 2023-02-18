@@ -1,40 +1,47 @@
-newRData	dnsprotocol/rdatas.html#newRData,ResourceRecord	rdatas: newRData(rr: var ResourceRecord)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RData,ResourceRecord,StringStream	rdatas: parseRData(rdata: RData; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataUnknown,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataUnknown; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataA,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataA; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataNS,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataNS; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataMD,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataMD; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataMF,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataMF; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataCNAME,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataCNAME; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataSOA,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataSOA; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataMB,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataMB; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataMG,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataMG; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataMR,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataMR; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataNULL,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataNULL; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataWKS,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataWKS; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataPTR,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataPTR; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataHINFO,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataHINFO; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataMINFO,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataMINFO; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataMX,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataMX; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataTXT,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataTXT; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataAAAA,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataAAAA; rr: ResourceRecord; ss: StringStream)	
-parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataCAA,ResourceRecord,StringStream	rdatas: parseRData(rdata: RDataCAA; rr: ResourceRecord; ss: StringStream)	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RData,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RData; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataA,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataA; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataNS,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataNS; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataMD,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataMD; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataMF,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataMF; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataCNAME,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataCNAME; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataSOA,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataSOA; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataMB,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataMB; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataMG,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataMG; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataMR,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataMR; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataNULL,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataNULL; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataWKS,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataWKS; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataPTR,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataPTR; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataHINFO,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataHINFO; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataMINFO,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataMINFO; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataMX,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataMX; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataTXT,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataTXT; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataAAAA,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataAAAA; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
-rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataCAA,ResourceRecord,StringStream,Table[string,uint16]	rdatas: rdataToBinMsg(rdata: RDataCAA; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])	
+nimTitle	rdatas	dnsprotocol/rdatas.html	module src/dnsprotocol/rdatas		0
+nim	newRData	dnsprotocol/rdatas.html#newRData,ResourceRecord	proc newRData(rr: var ResourceRecord)		7
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RData,ResourceRecord,StringStream	method parseRData(rdata: RData; rr: ResourceRecord; ss: StringStream)		37
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataUnknown,ResourceRecord,StringStream	method parseRData(rdata: RDataUnknown; rr: ResourceRecord; ss: StringStream)		40
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataA,ResourceRecord,StringStream	method parseRData(rdata: RDataA; rr: ResourceRecord; ss: StringStream)		49
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataNS,ResourceRecord,StringStream	method parseRData(rdata: RDataNS; rr: ResourceRecord; ss: StringStream)		53
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataMD,ResourceRecord,StringStream	method parseRData(rdata: RDataMD; rr: ResourceRecord; ss: StringStream)		56
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataMF,ResourceRecord,StringStream	method parseRData(rdata: RDataMF; rr: ResourceRecord; ss: StringStream)		59
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataCNAME,ResourceRecord,StringStream	method parseRData(rdata: RDataCNAME; rr: ResourceRecord; ss: StringStream)		62
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataSOA,ResourceRecord,StringStream	method parseRData(rdata: RDataSOA; rr: ResourceRecord; ss: StringStream)		65
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataMB,ResourceRecord,StringStream	method parseRData(rdata: RDataMB; rr: ResourceRecord; ss: StringStream)		74
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataMG,ResourceRecord,StringStream	method parseRData(rdata: RDataMG; rr: ResourceRecord; ss: StringStream)		77
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataMR,ResourceRecord,StringStream	method parseRData(rdata: RDataMR; rr: ResourceRecord; ss: StringStream)		80
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataNULL,ResourceRecord,StringStream	method parseRData(rdata: RDataNULL; rr: ResourceRecord; ss: StringStream)		83
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataWKS,ResourceRecord,StringStream	method parseRData(rdata: RDataWKS; rr: ResourceRecord; ss: StringStream)		91
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataPTR,ResourceRecord,StringStream	method parseRData(rdata: RDataPTR; rr: ResourceRecord; ss: StringStream)		104
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataHINFO,ResourceRecord,StringStream	method parseRData(rdata: RDataHINFO; rr: ResourceRecord; ss: StringStream)		107
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataMINFO,ResourceRecord,StringStream	method parseRData(rdata: RDataMINFO; rr: ResourceRecord; ss: StringStream)		111
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataMX,ResourceRecord,StringStream	method parseRData(rdata: RDataMX; rr: ResourceRecord; ss: StringStream)		115
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataTXT,ResourceRecord,StringStream	method parseRData(rdata: RDataTXT; rr: ResourceRecord; ss: StringStream)		119
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataAAAA,ResourceRecord,StringStream	method parseRData(rdata: RDataAAAA; rr: ResourceRecord; ss: StringStream)		122
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataCAA,ResourceRecord,StringStream	method parseRData(rdata: RDataCAA; rr: ResourceRecord; ss: StringStream)		126
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataSRV,ResourceRecord,StringStream	method parseRData(rdata: RDataSRV; rr: ResourceRecord; ss: StringStream)		146
+nim	parseRData	dnsprotocol/rdatas.html#parseRData.e,RDataOPT,ResourceRecord,StringStream	method parseRData(rdata: RDataOPT; rr: ResourceRecord; ss: StringStream)		152
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RData,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RData; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		170
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataA,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataA; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		174
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataNS,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataNS; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		180
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataMD,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataMD; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		186
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataMF,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataMF; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		192
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataCNAME,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataCNAME; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		198
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataSOA,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataSOA; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		204
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataMB,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataMB; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		216
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataMG,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataMG; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		222
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataMR,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataMR; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		228
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataNULL,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataNULL; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		234
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataWKS,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataWKS; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		240
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataPTR,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataPTR; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		248
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataHINFO,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataHINFO; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		254
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataMINFO,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataMINFO; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		261
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataMX,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataMX; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		268
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataTXT,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataTXT; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		275
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataAAAA,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataAAAA; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		282
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataCAA,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataCAA; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		288
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataSRV,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataSRV; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		297
+nim	rdataToBinMsg	dnsprotocol/rdatas.html#rdataToBinMsg.e,RDataOPT,ResourceRecord,StringStream,Table[string,uint16]	method rdataToBinMsg(rdata: RDataOPT; rr: ResourceRecord; ss: StringStream;\n              dictionary: var Table[string, uint16])		306
+nimgrp	rdatatobinmsg	dnsprotocol/rdatas.html#rdataToBinMsg-methods-all	method		170
+nimgrp	parserdata	dnsprotocol/rdatas.html#parseRData-methods-all	method		37

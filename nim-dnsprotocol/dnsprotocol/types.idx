@@ -1,39 +1,43 @@
-Type	dnsprotocol/types.html#Type	types: Type	
-QType	dnsprotocol/types.html#QType	types: QType	
-Class	dnsprotocol/types.html#Class	types: Class	
-QClass	dnsprotocol/types.html#QClass	types: QClass	
-QR	dnsprotocol/types.html#QR	types: QR	
-OpCode	dnsprotocol/types.html#OpCode	types: OpCode	
-RCode	dnsprotocol/types.html#RCode	types: RCode	
-Flags	dnsprotocol/types.html#Flags	types: Flags	
-Header	dnsprotocol/types.html#Header	types: Header	
-Question	dnsprotocol/types.html#Question	types: Question	
-Questions	dnsprotocol/types.html#Questions	types: Questions	
-RData	dnsprotocol/types.html#RData	types: RData	
-ResourceRecord	dnsprotocol/types.html#ResourceRecord	types: ResourceRecord	
-Answers	dnsprotocol/types.html#Answers	types: Answers	
-Authorities	dnsprotocol/types.html#Authorities	types: Authorities	
-Additionals	dnsprotocol/types.html#Additionals	types: Additionals	
-Message	dnsprotocol/types.html#Message	types: Message	
-BinMsg	dnsprotocol/types.html#BinMsg	types: BinMsg	
-RDataUnknown	dnsprotocol/types.html#RDataUnknown	types: RDataUnknown	
-RDataA	dnsprotocol/types.html#RDataA	types: RDataA	
-RDataNS	dnsprotocol/types.html#RDataNS	types: RDataNS	
-RDataMD	dnsprotocol/types.html#RDataMD	types: RDataMD	
-RDataMF	dnsprotocol/types.html#RDataMF	types: RDataMF	
-RDataCNAME	dnsprotocol/types.html#RDataCNAME	types: RDataCNAME	
-RDataSOA	dnsprotocol/types.html#RDataSOA	types: RDataSOA	
-RDataMB	dnsprotocol/types.html#RDataMB	types: RDataMB	
-RDataMG	dnsprotocol/types.html#RDataMG	types: RDataMG	
-RDataMR	dnsprotocol/types.html#RDataMR	types: RDataMR	
-RDataNULL	dnsprotocol/types.html#RDataNULL	types: RDataNULL	
-RDataWKS	dnsprotocol/types.html#RDataWKS	types: RDataWKS	
-RDataPTR	dnsprotocol/types.html#RDataPTR	types: RDataPTR	
-RDataHINFO	dnsprotocol/types.html#RDataHINFO	types: RDataHINFO	
-RDataMINFO	dnsprotocol/types.html#RDataMINFO	types: RDataMINFO	
-RDataMX	dnsprotocol/types.html#RDataMX	types: RDataMX	
-RDataTXT	dnsprotocol/types.html#RDataTXT	types: RDataTXT	
-RDataAAAA	dnsprotocol/types.html#RDataAAAA	types: RDataAAAA	
-CAAFlags	dnsprotocol/types.html#CAAFlags	types: CAAFlags	
-RDataCAA	dnsprotocol/types.html#RDataCAA	types: RDataCAA	
-RDatas	dnsprotocol/types.html#RDatas	types: RDatas	
+nimTitle	types	dnsprotocol/types.html	module src/dnsprotocol/types		0
+nim	Type	dnsprotocol/types.html#Type	enum Type		16
+nim	QType	dnsprotocol/types.html#QType	enum QType		39
+nim	Class	dnsprotocol/types.html#Class	enum Class		66
+nim	QClass	dnsprotocol/types.html#QClass	enum QClass		73
+nim	QR	dnsprotocol/types.html#QR	enum QR		80
+nim	OpCode	dnsprotocol/types.html#OpCode	enum OpCode		84
+nim	RCode	dnsprotocol/types.html#RCode	enum RCode		92
+nim	Flags	dnsprotocol/types.html#Flags	object Flags		106
+nim	Header	dnsprotocol/types.html#Header	object Header		138
+nim	Question	dnsprotocol/types.html#Question	object Question		146
+nim	Questions	dnsprotocol/types.html#Questions	type Questions		151
+nim	RData	dnsprotocol/types.html#RData	type RData		153
+nim	ResourceRecord	dnsprotocol/types.html#ResourceRecord	object ResourceRecord		155
+nim	Answers	dnsprotocol/types.html#Answers	type Answers		170
+nim	Authorities	dnsprotocol/types.html#Authorities	type Authorities		171
+nim	Additionals	dnsprotocol/types.html#Additionals	type Additionals		172
+nim	Message	dnsprotocol/types.html#Message	object Message		174
+nim	BinMsg	dnsprotocol/types.html#BinMsg	type BinMsg		181
+nim	RDataUnknown	dnsprotocol/types.html#RDataUnknown	type RDataUnknown		7
+nim	RDataA	dnsprotocol/types.html#RDataA	type RDataA		11
+nim	RDataNS	dnsprotocol/types.html#RDataNS	type RDataNS		14
+nim	RDataMD	dnsprotocol/types.html#RDataMD	type RDataMD		17
+nim	RDataMF	dnsprotocol/types.html#RDataMF	type RDataMF		20
+nim	RDataCNAME	dnsprotocol/types.html#RDataCNAME	type RDataCNAME		23
+nim	RDataSOA	dnsprotocol/types.html#RDataSOA	type RDataSOA		26
+nim	RDataMB	dnsprotocol/types.html#RDataMB	type RDataMB		35
+nim	RDataMG	dnsprotocol/types.html#RDataMG	type RDataMG		38
+nim	RDataMR	dnsprotocol/types.html#RDataMR	type RDataMR		41
+nim	RDataNULL	dnsprotocol/types.html#RDataNULL	type RDataNULL		44
+nim	RDataWKS	dnsprotocol/types.html#RDataWKS	type RDataWKS		47
+nim	RDataPTR	dnsprotocol/types.html#RDataPTR	type RDataPTR		52
+nim	RDataHINFO	dnsprotocol/types.html#RDataHINFO	type RDataHINFO		55
+nim	RDataMINFO	dnsprotocol/types.html#RDataMINFO	type RDataMINFO		59
+nim	RDataMX	dnsprotocol/types.html#RDataMX	type RDataMX		63
+nim	RDataTXT	dnsprotocol/types.html#RDataTXT	type RDataTXT		67
+nim	RDataAAAA	dnsprotocol/types.html#RDataAAAA	type RDataAAAA		74
+nim	RDataSRV	dnsprotocol/types.html#RDataSRV	type RDataSRV		81
+nim	OPTOption	dnsprotocol/types.html#OPTOption	object OPTOption		91
+nim	RDataOPT	dnsprotocol/types.html#RDataOPT	type RDataOPT		95
+nim	CAAFlags	dnsprotocol/types.html#CAAFlags	object CAAFlags		102
+nim	RDataCAA	dnsprotocol/types.html#RDataCAA	type RDataCAA		110
+nim	RDatas	dnsprotocol/types.html#RDatas	type RDatas		119
