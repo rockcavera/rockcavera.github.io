@@ -1,0 +1,16 @@
+nimTitle	dnsstamps2	dnsstamps2.html	module src/dnsstamps2		0
+nim	StampProto	dnsstamps2.html#StampProto	enum StampProto		34
+nim	StampProps	dnsstamps2.html#StampProps	enum StampProps		53
+nim	StampObj	dnsstamps2.html#StampObj	object StampObj		62
+nim	`==`	dnsstamps2.html#==,StampObj,StampObj	proc `==`(a, b: StampObj): bool		99
+nim	initPlainDNSStamp	dnsstamps2.html#initPlainDNSStamp,string,Port,set[StampProps]	proc initPlainDNSStamp(ip: string; port: Port = Port(53); props: set[StampProps] = {}): StampObj		142
+nim	initDNSCryptStamp	dnsstamps2.html#initDNSCryptStamp,string,string,array[,byte],Port,set[StampProps]	proc initDNSCryptStamp(ip: string; providerName: string; pk: array[32, byte];\n                  port: Port = Port(443); props: set[StampProps] = {}): StampObj		157
+nim	initDoHStamp	dnsstamps2.html#initDoHStamp,string,string,seq[array[,byte]],Port,string,seq[string],set[StampProps]	proc initDoHStamp(ip: string = ""; hostname: string; hashes: seq[array[32, byte]];\n             port: Port = Port(443); path: string = "/dns-query";\n             bootstrapIps: seq[string] = @[]; props: set[StampProps] = {}): StampObj		180
+nim	initDoTStamp	dnsstamps2.html#initDoTStamp,string,string,seq[array[,byte]],Port,seq[string],set[StampProps]	proc initDoTStamp(ip: string = ""; hostname: string; hashes: seq[array[32, byte]];\n             port: Port = Port(443); bootstrapIps: seq[string] = @[];\n             props: set[StampProps] = {}): StampObj		211
+nim	initDoQStamp	dnsstamps2.html#initDoQStamp,string,string,seq[array[,byte]],Port,seq[string],set[StampProps]	proc initDoQStamp(ip: string = ""; hostname: string; hashes: seq[array[32, byte]];\n             port: Port = Port(443); bootstrapIps: seq[string] = @[];\n             props: set[StampProps] = {}): StampObj		241
+nim	initODoHTargetStamp	dnsstamps2.html#initODoHTargetStamp,string,Port,string,set[StampProps]	proc initODoHTargetStamp(hostname: string; port: Port = Port(443);\n                    path: string = "/dns-query"; props: set[StampProps] = {}): StampObj		271
+nim	initDNSCryptRelayStamp	dnsstamps2.html#initDNSCryptRelayStamp,string,Port	proc initDNSCryptRelayStamp(ip: string; port: Port = Port(443)): StampObj		292
+nim	initODoHRelayStamp	dnsstamps2.html#initODoHRelayStamp,string,string,seq[array[,byte]],Port,string,seq[string],set[StampProps]	proc initODoHRelayStamp(ip: string = ""; hostname: string;\n                   hashes: seq[array[32, byte]]; port: Port = Port(443);\n                   path: string = "/dns-query";\n                   bootstrapIps: seq[string] = @[]; props: set[StampProps] = {}): StampObj		305
+nim	toStamp	dnsstamps2.html#toStamp,StampObj	proc toStamp(stamp: StampObj): string		363
+nim	parseStamp	dnsstamps2.html#parseStamp,string	proc parseStamp(uri: string): StampObj		453
+heading	Basic Use	dnsstamps2.html#basic-use	 Basic Use		0
