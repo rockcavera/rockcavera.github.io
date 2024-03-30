@@ -1,6 +1,5 @@
-BOOL	mdlldk/types.html#BOOL	types: BOOL	
-HWND	mdlldk/types.html#HWND	types: HWND	
-LoadInfo	mdlldk/types.html#LoadInfo	types: LoadInfo	
-UnloadMode	mdlldk/types.html#UnloadMode	types: UnloadMode	
-UnloadReturn	mdlldk/types.html#UnloadReturn	types: UnloadReturn	
-ProcReturn	mdlldk/types.html#ProcReturn	types: ProcReturn	
+nimTitle	types	mdlldk/types.html	module src/mdlldk/types		0
+nim	LoadInfo	mdlldk/types.html#LoadInfo	object LoadInfo		6
+nim	UnloadMode	mdlldk/types.html#UnloadMode	enum UnloadMode		29
+nim	UnloadReturn	mdlldk/types.html#UnloadReturn	enum UnloadReturn		42
+nim	ProcReturn	mdlldk/types.html#ProcReturn	enum ProcReturn		49

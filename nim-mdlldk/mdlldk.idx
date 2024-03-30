@@ -1,9 +1,11 @@
-addProcToExport	mdlldk.html#addProcToExport,string,int	mdlldk: addProcToExport(name: string; size: int)	
-addAliasFor	mdlldk.html#addAliasFor,string,string	mdlldk: addAliasFor(procName, aliasName: string)	
-exportAllProcs	mdlldk.html#exportAllProcs.t	mdlldk: exportAllProcs()	
-addLoadProc	mdlldk.html#addLoadProc.t,bool,bool,untyped	mdlldk: addLoadProc(keepLoaded, strUnicode: bool; body: untyped)	
-addUnloadProc	mdlldk.html#addUnloadProc.t,UnloadReturn,untyped	mdlldk: addUnloadProc(unused: UnloadReturn; body: untyped)	
-newProcToExport	mdlldk.html#newProcToExport.t,untyped,untyped	mdlldk: newProcToExport(procname, body: untyped)	
-newProcToExportW	mdlldk.html#newProcToExportW.t,untyped,untyped	mdlldk: newProcToExportW(procname, body: untyped)	
-newProcToExportA	mdlldk.html#newProcToExportA.t,untyped,untyped	mdlldk: newProcToExportA(procname, body: untyped)	
-Basic Use	mdlldk.html#basic-use	 Basic Use	
+nimTitle	mdlldk	mdlldk.html	module src/mdlldk		0
+nim	aliasFor	mdlldk.html#aliasFor.t,string	template aliasFor(procname: string = "")		132
+nim	addProcToExport	mdlldk.html#addProcToExport,string,int	proc addProcToExport(name: string; size: int)		249
+nim	exportAllProcs	mdlldk.html#exportAllProcs.t	template exportAllProcs()		268
+nim	addLoadProc	mdlldk.html#addLoadProc.t,bool,bool,untyped	template addLoadProc(keepLoaded, strUnicode: bool; body: untyped)		276
+nim	addUnloadProc	mdlldk.html#addUnloadProc.t,UnloadReturn,untyped	template addUnloadProc(unused: UnloadReturn; body: untyped)		324
+nim	newProcToExport	mdlldk.html#newProcToExport.t,untyped,untyped	template newProcToExport(procname, body: untyped)		398
+nim	newProcToExportW	mdlldk.html#newProcToExportW.t,untyped,untyped	template newProcToExportW(procname, body: untyped)		474
+nim	newProcToExportA	mdlldk.html#newProcToExportA.t,untyped,untyped	template newProcToExportA(procname, body: untyped)		526
+nim	addAliasFor	mdlldk.html#addAliasFor.t,untyped,untyped,untyped	template addAliasFor(procName, aliasName, comments: untyped)		578
+heading	Basic Use	mdlldk.html#basic-use	 Basic Use		0

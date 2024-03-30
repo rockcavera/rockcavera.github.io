@@ -1,0 +1,13 @@
+nimTitle	tools	mdlldk/tools.html	module src/mdlldk/tools		0
+nim	mInitialized	mdlldk/tools.html#mInitialized	proc mInitialized(): bool		27
+nim	mMajor	mdlldk/tools.html#mMajor	proc mMajor(): int		31
+nim	mMinor	mdlldk/tools.html#mMinor	proc mMinor(): int		35
+nim	mBeta	mdlldk/tools.html#mBeta	proc mBeta(): int		39
+nim	mUnicode	mdlldk/tools.html#mUnicode	proc mUnicode(): bool		43
+nim	mMaxBytes	mdlldk/tools.html#mMaxBytes	proc mMaxBytes(): int		48
+nim	mKeepLoaded	mdlldk/tools.html#mKeepLoaded	proc mKeepLoaded(): bool		52
+nim	mMainWindowHandle	mdlldk/tools.html#mMainWindowHandle	proc mMainWindowHandle(): HWND		56
+nim	mRawVersion	mdlldk/tools.html#mRawVersion	proc mRawVersion(): uint32		60
+nim	mToCStringAndCopy	mdlldk/tools.html#mToCStringAndCopy,,string	proc mToCStringAndCopy(dest: pointer | cstring; source: string)		68
+nim	mToWideCStringAndCopy	mdlldk/tools.html#mToWideCStringAndCopy,,string	proc mToWideCStringAndCopy(dest: pointer | WideCString; source: string)		76
+nim	initTools	mdlldk/tools.html#initTools,ptr.LoadInfo,bool,bool	proc initTools(info: ptr LoadInfo; keepLoaded, strUnicode: bool)		149
